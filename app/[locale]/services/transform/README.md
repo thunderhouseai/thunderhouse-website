@@ -1,0 +1,1 @@
+Pillar 3 — TRANSFORM detail page. Covers: Digital Strategy & Business Modeling, AI Marketing Systems, Consulting & Advisory, In-House Training & Enablement. i18n prefix: services.transform.* CTA links to https://calendly.com/thunderhouseai/30min.

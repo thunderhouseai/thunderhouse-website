@@ -1,0 +1,1 @@
+Next.js 15 App Router root. layout.tsx is the root HTML shell — it mounts no UI. globals.css contains Tailwind v4 imports, all CSS custom properties, and all animation keyframes. [locale]/ holds all user-facing pages. api/ holds server-side route handlers only. No business logic in layout.tsx or page.tsx files — logic lives in lib/.

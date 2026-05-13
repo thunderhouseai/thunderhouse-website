@@ -1,0 +1,1 @@
+Reserved for self-hosted font files if Fontsource is replaced. Currently empty — fonts load via @fontsource/syne and @fontsource/inter imported in app/[locale]/layout.tsx. If adding fonts here: woff2 only, declare @font-face in globals.css, remove Fontsource package.

@@ -1,0 +1,1 @@
+Static image assets served at /images/*. Files: logo.svg (full wordmark, never overwrite), logo-mark.svg (bolt only, mobile header + favicon), bolt.svg (standalone bolt for BoltIcon component), og-image.png (1200x630, all page meta). All images referenced in components use Next.js <Image />. Never use raw <img> tags. No orphaned files — every asset must be used.

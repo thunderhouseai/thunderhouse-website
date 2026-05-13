@@ -1,0 +1,1 @@
+Reusable primitive components. Dumb — props in, styled output out. No business logic, no API calls, no i18n. Button (primary/secondary/ghost, accepts href), Card (glassmorphism wrapper), Badge (label pill), Input (styled with error state), BoltIcon (inline SVG, props: size + color), CountUp (scroll-triggered number animation). Named exports only.

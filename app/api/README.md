@@ -1,0 +1,1 @@
+Server-side Route Handlers only. Never imported by pages — called via fetch() from client components. Routes: health/ (Coolify health check), contact/ (form handler → n8n webhook → DB), chat/ (Claude API stream). All routes validate input before external calls. All return consistent JSON: { success: boolean, error?: string }. Never expose stack traces.

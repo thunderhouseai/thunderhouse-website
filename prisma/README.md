@@ -1,0 +1,1 @@
+Database schema and Prisma config. schema.prisma defines two models: ContactSubmission (form data + n8nSent flag) and ChatSession (AI chat history as JSON with locale). After any schema change: run npx prisma migrate dev --name [description] then npx prisma generate then restart dev server. DATABASE_URL points to PostgreSQL on the VPS.

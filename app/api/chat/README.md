@@ -1,0 +1,1 @@
+POST /api/chat. Powers ChatWidget with streaming Claude API responses. Body: { messages: [{role, content}], locale: 'en'|'es' }. Response is a ReadableStream. System prompt configures Claude as ThunderHouse's bilingual lead-qualifying assistant. Saves ChatSession to DB after each exchange. Rate limit: 20 requests per IP per hour.

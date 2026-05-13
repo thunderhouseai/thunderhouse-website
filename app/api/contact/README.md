@@ -1,0 +1,1 @@
+POST /api/contact. Flow: validate body → save ContactSubmission to DB → POST to N8N_CONTACT_WEBHOOK_URL → return success. n8n handles email + Slack/WhatsApp notifications. If n8n fails, DB record is still saved and success is still returned — contact data is never lost. Payload: { name, email, phone, company, message, service, lang, timestamp }

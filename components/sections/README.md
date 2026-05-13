@@ -1,0 +1,1 @@
+Full-width page sections used by page.tsx files. Each is self-contained: imports copy via useTranslations() and handles its own animation setup. Home page render order: Hero → Problem → Services → Process → WhyUs → SocialProof → CtaBanner. Never fetch data inside sections — all content from i18n JSON only.

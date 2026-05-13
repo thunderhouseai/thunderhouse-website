@@ -1,0 +1,219 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg:             #080C14;
+  --color-surface:        #0F1520;
+  --color-surface-raised: #1A2140;
+  --color-navy:           #242A5B;
+  --color-navy-light:     #353760;
+  --color-steel:          #B4D7E2;
+  --color-steel-muted:    #6BA8BC;
+  --color-border:         #242A5B;
+  --color-border-subtle:  #1A2140;
+  --color-text:           #F1F5F9;
+  --color-muted:          #8B9BBF;
+  --color-cta:            #B4D7E2;
+  --color-cta-hover:      #D4EBF2;
+}
+
+@theme inline {
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
+}
+
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── HERO BACKGROUND ── */
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(180,215,226,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(180,215,226,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  animation: gridMove 20s linear infinite;
+}
+
+.hero-glow {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(180,215,226,0.06) 0%, transparent 70%);
+  pointer-events: none;
+  animation: glowPulse 6s ease-in-out infinite;
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  animation: float linear infinite;
+}
+
+.orb-1 {
+  width: 300px;
+  height: 300px;
+  background: rgba(36,42,91,0.5);
+  top: 10%;
+  left: 5%;
+  animation-duration: 25s;
+}
+
+.orb-2 {
+  width: 200px;
+  height: 200px;
+  background: rgba(180,215,226,0.07);
+  top: 40%;
+  right: 10%;
+  animation-duration: 35s;
+  animation-delay: -10s;
+}
+
+.orb-3 {
+  width: 250px;
+  height: 250px;
+  background: rgba(36,42,91,0.4);
+  bottom: 10%;
+  left: 30%;
+  animation-duration: 30s;
+  animation-delay: -5s;
+}
+
+/* ── PILLAR CARD SHIMMER ── */
+.pillar-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.pillar-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    transparent 40%,
+    rgba(180,215,226,0.04) 50%,
+    transparent 60%
+  );
+  background-size: 200% 200%;
+  transition: background-position 0.5s ease;
+}
+
+.pillar-card:hover::before {
+  background-position: right bottom;
+}
+
+/* ── CTA BUTTON SHIMMER ── */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+  transition: left 0.4s ease;
+}
+
+.btn-primary:hover::after {
+  left: 150%;
+}
+
+/* ── BOLT ICON ── */
+@keyframes boltFlicker {
+  0%,  100% { opacity: 1;   filter: drop-shadow(0 0 0px  #B4D7E2); }
+  40%        { opacity: 0.7; filter: drop-shadow(0 0 4px  #B4D7E2); }
+  60%        { opacity: 1;   filter: drop-shadow(0 0 8px  #B4D7E2); }
+  80%        { opacity: 0.8; filter: drop-shadow(0 0 2px  #B4D7E2); }
+}
+
+.bolt-icon:hover {
+  animation: boltFlicker 0.4s ease forwards;
+}
+
+@keyframes boltPulse {
+  0%, 100% { filter: drop-shadow(0 0 4px  rgba(180,215,226,0.3)); }
+  50%       { filter: drop-shadow(0 0 16px rgba(180,215,226,0.6)); }
+}
+
+.bolt-hero {
+  animation: boltPulse 3s ease-in-out infinite;
+}
+
+/* ── CHAT WIDGET PULSE ── */
+@keyframes widgetPulse {
+  0%,  100% { box-shadow: 0 0 0 0   rgba(180,215,226,0.4); }
+  50%        { box-shadow: 0 0 0 8px rgba(180,215,226,0);   }
+}
+
+.widget-pulse {
+  animation: widgetPulse 2.5s ease-out infinite;
+}
+
+/* ── PAGE TRANSITIONS ── */
+::view-transition-old(root) {
+  animation: pageOut 0.2s ease forwards;
+}
+::view-transition-new(root) {
+  animation: pageIn  0.3s ease forwards;
+}
+
+/* ── HEADER ── */
+.header-scrolled {
+  background: rgba(8,12,20,0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(36,42,91,0.5);
+}
+
+/* ── KEYFRAMES ── */
+@keyframes gridMove {
+  0%   { background-position: 0 0; }
+  100% { background-position: 60px 60px; }
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.6; transform: translateX(-50%) scale(1);   }
+  50%       { opacity: 1;   transform: translateX(-50%) scale(1.1); }
+}
+
+@keyframes float {
+  0%   { transform: translate(0,0)       rotate(0deg);   }
+  33%  { transform: translate(30px,-20px) rotate(120deg); }
+  66%  { transform: translate(-20px,15px) rotate(240deg); }
+  100% { transform: translate(0,0)       rotate(360deg); }
+}
+
+@keyframes pageOut {
+  to   { opacity: 0; }
+}
+
+@keyframes pageIn {
+  from { opacity: 0; }
+}
+
+/* ── REDUCED MOTION ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

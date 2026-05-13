@@ -1,0 +1,215 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "process": "Process",
+    "contact": "Contact",
+    "cta": "Book a Call"
+  },
+  "hero": {
+    "eyebrow": "AI IMPLEMENTATION FOR REAL BUSINESSES",
+    "headline": "Stop Running Your Business Manually",
+    "subheadline": "ThunderHouse finds the bottlenecks in your operation and builds AI systems that eliminate them — so your team focuses on growth, not on reminders, paperwork, and calls that should never happen.",
+    "cta_primary": "Book Your Free Discovery Call",
+    "cta_secondary": "See What We've Built",
+    "stat1": "10+",
+    "stat1_sub": "Businesses",
+    "stat1_label": "and counting",
+    "stat2": "5",
+    "stat2_sub": "Industries",
+    "stat2_label": "and counting",
+    "stat3": "0",
+    "stat3_sub": "Manual Reminders",
+    "stat3_label": "and counting"
+  },
+  "problem": {
+    "eyebrow": "THE CHALLENGE",
+    "headline": "Your team is working hard. The tools aren't.",
+    "card1": {
+      "title": "Hours lost to manual reminders",
+      "body": "Your team spends hours making calls and sending messages that a system could handle automatically."
+    },
+    "card2": {
+      "title": "Data entered twice — or more",
+      "body": "Client data gets submitted, then manually re-entered somewhere else. Every time it moves, errors happen."
+    },
+    "card3": {
+      "title": "Systems that don't talk to each other",
+      "body": "Your CRM, accounting, calendar — all separate. Your people become the connection, and that doesn't scale."
+    },
+    "card4": {
+      "title": "AI feels out of reach",
+      "body": "You know AI could help. But you don't know where to start, what it costs, or who to trust."
+    }
+  },
+  "services": {
+    "eyebrow": "WHAT WE DO",
+    "headline": "Three ways we build your AI advantage",
+    "not_sure": "Not sure where to start? Let's figure it out together.",
+    "build": {
+      "name": "BUILD",
+      "tagline": "We design and build your digital infrastructure",
+      "s1": "AI-Powered Websites",
+      "s2": "Web & Mobile Apps",
+      "s3": "Custom AI Tools & Automations",
+      "cta": "Explore Build →",
+      "hero_headline": "Build Your Digital Infrastructure",
+      "hero_sub": "We design and build the digital systems your business runs on — websites, apps, and custom AI automations that work while you sleep."
+    },
+    "analyze": {
+      "name": "ANALYZE",
+      "tagline": "We turn your data into decisions",
+      "s1": "Data Science & Analytics",
+      "s2": "Business Intelligence Dashboards",
+      "s3": "Custom AI Model Development",
+      "cta": "Explore Analyze →",
+      "hero_headline": "Turn Your Data Into Decisions",
+      "hero_sub": "We surface the insights already hiding in your data — so you can make faster, smarter decisions with confidence."
+    },
+    "transform": {
+      "name": "TRANSFORM",
+      "tagline": "We redesign how your business operates and grows",
+      "s1": "Digital Strategy & Business Modeling",
+      "s2": "AI Marketing Systems",
+      "s3": "Consulting & Advisory",
+      "s4": "In-House Training & Enablement",
+      "cta": "Explore Transform →",
+      "hero_headline": "Transform How You Operate",
+      "hero_sub": "We redesign your operations from the ground up — strategy, marketing, consulting, and the training your team needs to own it."
+    },
+    "overview": {
+      "headline": "Everything we do, in one place",
+      "sub": "Three service pillars. One outcome: your business running smarter."
+    }
+  },
+  "process": {
+    "eyebrow": "THE PROCESS",
+    "headline": "From problem to solution — five clear steps",
+    "step1": {
+      "title": "DISCOVER",
+      "body": "We learn your business, your goals, and your constraints before we touch a single tool."
+    },
+    "step2": {
+      "title": "DIAGNOSE",
+      "body": "We map every bottleneck, gap, and AI opportunity specific to your operation."
+    },
+    "step3": {
+      "title": "BUILD",
+      "body": "We design and develop the right solution — nothing more, nothing less."
+    },
+    "step4": {
+      "title": "DEPLOY",
+      "body": "We install, integrate, and train your team so adoption actually happens."
+    },
+    "step5": {
+      "title": "OPTIMIZE",
+      "body": "We monitor, measure, and improve — because good systems get better over time."
+    },
+    "full_headline": "How ThunderHouse Works",
+    "full_sub": "A repeatable process built for real businesses — transparent, collaborative, and focused on results you can measure."
+  },
+  "whyus": {
+    "eyebrow": "WHY US",
+    "headline": "We're not a software vendor. We're your implementation partner.",
+    "col1": {
+      "title": "Local Expertise",
+      "body": "We work specifically with Puerto Rican businesses in PR and Orlando. We know your market, your culture, and your clients. We speak your language — literally."
+    },
+    "col2": {
+      "title": "End-to-End Ownership",
+      "body": "We don't hand off. We build, deploy, train your team, and stay. If something isn't working, we fix it — because we own the outcome, not just the deliverable."
+    },
+    "col3": {
+      "title": "AI-First Mindset",
+      "body": "Every solution starts with one question: how can AI make this better? Not AI for the sake of it — AI that saves time, reduces errors, and helps your team do more."
+    }
+  },
+  "proof": {
+    "metric": "100% of manual reminder calls — eliminated.",
+    "metric_sub": "Automated across SMS, WhatsApp, and email.",
+    "case1": {
+      "badge": "END-TO-END AUTOMATION",
+      "industry": "Large-Scale Closet Manufacturing",
+      "headline": "A full factory operation — automated from order to delivery",
+      "body": "Roomy Organizers needed their entire workflow connected. ThunderHouse built an end-to-end system linking sales, production, inventory, and fulfillment — no more disconnected spreadsheets or manual handoffs between teams."
+    },
+    "case2": {
+      "badge": "AI WORKFLOW AUTOMATION",
+      "industry": "Accounting & Compliance",
+      "headline": "Client data in. Government filing out. Zero manual steps.",
+      "body": "For multiple CPA firms, ThunderHouse built an AI agent where clients submit data through a guided interface. The system automatically validates, formats, and publishes directly to government portals for auditing compliance — cutting processing time dramatically and eliminating re-entry errors."
+    },
+    "case3": {
+      "badge": "COMMUNICATION AUTOMATION",
+      "industry": "Healthcare · Non-Profit · Pet Care",
+      "headline": "Your team stopped making reminder calls. Clients still show up.",
+      "body": "Across medical clinics, non-profit agencies, and pet resorts, ThunderHouse replaced manual phone trees with intelligent SMS and WhatsApp automation coordinated with email. Reminders go out automatically. Teams manage everything from one dashboard. No one falls through the cracks."
+    },
+    "client1": "Roomy Organizers",
+    "client2": "CPA Partners",
+    "client3": "Medical Clinics",
+    "client4": "Non-Profit Orgs",
+    "client5": "Pet Resorts"
+  },
+  "cta": {
+    "headline": "Ready to stop doing it manually?",
+    "button": "Book Your Free 30-Min Call",
+    "note": "No pitch. No commitment. Just a real conversation about your operation — in English or Spanish."
+  },
+  "contact": {
+    "headline": "Let's Talk About Your Operation",
+    "sub": "Tell us what you're dealing with. We'll tell you what's possible.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "message": "What's your biggest operational challenge?",
+      "service": "Which service interests you?",
+      "service_build": "Build — Websites, Apps & Automations",
+      "service_analyze": "Analyze — Data Science & BI",
+      "service_transform": "Transform — Strategy & Consulting",
+      "service_unsure": "Not sure yet",
+      "submit": "Send Message"
+    },
+    "success": "Message sent! We'll be in touch within one business day.",
+    "error": "Something went wrong. Please try again or email us directly.",
+    "calendly_headline": "Or book a call directly"
+  },
+  "about": {
+    "headline": "We Build AI Systems for Real Businesses",
+    "sub": "ThunderHouse is an AI implementation agency built specifically for Puerto Rican businesses in Puerto Rico and Orlando, Florida.",
+    "mission_headline": "Our Mission",
+    "mission_body": "To make enterprise-level AI implementation accessible to small and mid-size businesses — with the local knowledge, bilingual support, and end-to-end ownership that makes the difference between technology that works and technology that sits unused.",
+    "market_headline": "Puerto Rico + Orlando",
+    "market_body": "We serve the Puerto Rican business community wherever they operate — from San Juan to Orlando and everywhere in between. We understand the market, the culture, and the unique challenges of building a business in this community.",
+    "team_headline": "The Team",
+    "team_placeholder": "[TODO: Replace with real photos + bios]"
+  },
+  "chat": {
+    "greeting": "Hi! I'm the ThunderHouse AI assistant. What's your biggest operational challenge right now?",
+    "placeholder": "Type your message...",
+    "cta": "Want to talk to a real person? Book a free call →",
+    "title": "ThunderHouse AI"
+  },
+  "footer": {
+    "tagline": "Your Business. Supercharged by AI.",
+    "services": "Services",
+    "company": "Company",
+    "copyright": "© 2025 ThunderHouse. All rights reserved.",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "meta": {
+    "home_title": "ThunderHouse — AI Implementation Agency",
+    "home_desc": "ThunderHouse helps Puerto Rican businesses in PR and Orlando implement AI solutions that eliminate manual work, connect systems, and drive growth.",
+    "services_title": "Services — ThunderHouse",
+    "services_desc": "Build, Analyze, and Transform — three service pillars for AI-powered businesses.",
+    "about_title": "About — ThunderHouse",
+    "about_desc": "Learn about ThunderHouse, the AI implementation agency serving Puerto Rico and Orlando.",
+    "process_title": "Our Process — ThunderHouse",
+    "process_desc": "How ThunderHouse builds AI solutions: Discover, Diagnose, Build, Deploy, Optimize.",
+    "contact_title": "Contact — ThunderHouse",
+    "contact_desc": "Get in touch with ThunderHouse. Book a free 30-minute discovery call."
+  }
+}

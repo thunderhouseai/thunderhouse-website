@@ -1,0 +1,215 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "process": "Proceso",
+    "contact": "Contacto",
+    "cta": "Reservar Llamada"
+  },
+  "hero": {
+    "eyebrow": "IMPLEMENTACIÓN DE IA PARA NEGOCIOS REALES",
+    "headline": "Deja de Operar Tu Negocio a Mano",
+    "subheadline": "ThunderHouse identifica los cuellos de botella en tu operación y construye sistemas de IA que los eliminan — para que tu equipo se enfoque en crecer, no en recordatorios, papeleo y llamadas que nunca deberían ocurrir.",
+    "cta_primary": "Reserva Tu Llamada Gratuita",
+    "cta_secondary": "Ve Lo Que Hemos Construido",
+    "stat1": "10+",
+    "stat1_sub": "Negocios",
+    "stat1_label": "y contando",
+    "stat2": "5",
+    "stat2_sub": "Industrias",
+    "stat2_label": "y contando",
+    "stat3": "0",
+    "stat3_sub": "Recordatorios Manuales",
+    "stat3_label": "y contando"
+  },
+  "problem": {
+    "eyebrow": "EL DESAFÍO",
+    "headline": "Tu equipo trabaja duro. Las herramientas, no.",
+    "card1": {
+      "title": "Horas perdidas en recordatorios manuales",
+      "body": "Tu equipo pasa horas haciendo llamadas y enviando mensajes que un sistema podría manejar automáticamente."
+    },
+    "card2": {
+      "title": "Datos ingresados dos veces — o más",
+      "body": "Los datos se someten y luego se vuelven a ingresar manualmente. Cada vez que se mueven, ocurren errores."
+    },
+    "card3": {
+      "title": "Sistemas que no se comunican",
+      "body": "Tu CRM, contabilidad, calendario — todos separados. Tu gente se convierte en el enlace, y eso no escala."
+    },
+    "card4": {
+      "title": "La IA parece inalcanzable",
+      "body": "Sabes que la IA puede ayudar. Pero no sabes por dónde empezar, cuánto cuesta, ni en quién confiar."
+    }
+  },
+  "services": {
+    "eyebrow": "LO QUE HACEMOS",
+    "headline": "Tres formas en que construimos tu ventaja con IA",
+    "not_sure": "¿No sabes por dónde empezar? Lo resolveremos juntos.",
+    "build": {
+      "name": "CONSTRUIR",
+      "tagline": "Diseñamos y construimos tu infraestructura digital",
+      "s1": "Sitios Web con IA",
+      "s2": "Apps Web y Móviles",
+      "s3": "Herramientas de IA y Automatizaciones",
+      "cta": "Explorar Construir →",
+      "hero_headline": "Construye Tu Infraestructura Digital",
+      "hero_sub": "Diseñamos y construimos los sistemas digitales en los que opera tu negocio — sitios web, apps y automatizaciones de IA que trabajan mientras descansas."
+    },
+    "analyze": {
+      "name": "ANALIZAR",
+      "tagline": "Convertimos tus datos en decisiones",
+      "s1": "Ciencia de Datos y Analítica",
+      "s2": "Dashboards de Inteligencia de Negocio",
+      "s3": "Desarrollo de Modelos de IA",
+      "cta": "Explorar Analizar →",
+      "hero_headline": "Convierte Tus Datos en Decisiones",
+      "hero_sub": "Sacamos a la superficie los insights que ya están escondidos en tus datos — para que puedas tomar decisiones más rápidas e inteligentes con confianza."
+    },
+    "transform": {
+      "name": "TRANSFORMAR",
+      "tagline": "Rediseñamos cómo opera y crece tu negocio",
+      "s1": "Estrategia Digital y Modelado de Negocios",
+      "s2": "Sistemas de Marketing con IA",
+      "s3": "Consultoría y Asesoría",
+      "s4": "Capacitación Interna y Habilitación",
+      "cta": "Explorar Transformar →",
+      "hero_headline": "Transforma Cómo Operas",
+      "hero_sub": "Rediseñamos tus operaciones desde la base — estrategia, marketing, consultoría y la capacitación que tu equipo necesita para ser dueño del proceso."
+    },
+    "overview": {
+      "headline": "Todo lo que hacemos, en un solo lugar",
+      "sub": "Tres pilares de servicio. Un resultado: tu negocio operando más inteligente."
+    }
+  },
+  "process": {
+    "eyebrow": "NUESTRO PROCESO",
+    "headline": "Del problema a la solución — cinco pasos claros",
+    "step1": {
+      "title": "DESCUBRIR",
+      "body": "Aprendemos tu negocio, tus metas y tus limitaciones antes de tocar una sola herramienta."
+    },
+    "step2": {
+      "title": "DIAGNOSTICAR",
+      "body": "Mapeamos cada cuello de botella, brecha y oportunidad de IA específica para tu operación."
+    },
+    "step3": {
+      "title": "CONSTRUIR",
+      "body": "Diseñamos y desarrollamos la solución correcta — nada más, nada menos."
+    },
+    "step4": {
+      "title": "IMPLEMENTAR",
+      "body": "Instalamos, integramos y capacitamos a tu equipo para que la adopción realmente suceda."
+    },
+    "step5": {
+      "title": "OPTIMIZAR",
+      "body": "Monitoreamos, medimos y mejoramos — porque los buenos sistemas mejoran con el tiempo."
+    },
+    "full_headline": "Cómo Funciona ThunderHouse",
+    "full_sub": "Un proceso repetible construido para negocios reales — transparente, colaborativo y enfocado en resultados que puedes medir."
+  },
+  "whyus": {
+    "eyebrow": "POR QUÉ NOSOTROS",
+    "headline": "No somos un vendedor de software. Somos tu socio de implementación.",
+    "col1": {
+      "title": "Experiencia Local",
+      "body": "Trabajamos específicamente con negocios puertorriqueños en PR y Orlando. Conocemos tu mercado, tu cultura y tus clientes. Hablamos tu idioma — literalmente."
+    },
+    "col2": {
+      "title": "Responsabilidad Total",
+      "body": "No entregamos y nos vamos. Construimos, implementamos, capacitamos a tu equipo y nos quedamos. Si algo no funciona, lo arreglamos — porque somos dueños del resultado."
+    },
+    "col3": {
+      "title": "Mentalidad IA Primero",
+      "body": "Cada solución empieza con una pregunta: ¿cómo puede la IA mejorar esto? No IA por hacerlo — IA que ahorra tiempo, reduce errores y ayuda a tu equipo a hacer más."
+    }
+  },
+  "proof": {
+    "metric": "100% de las llamadas de recordatorio manuales — eliminadas.",
+    "metric_sub": "Automatizado via SMS, WhatsApp y correo electrónico.",
+    "case1": {
+      "badge": "AUTOMATIZACIÓN TOTAL",
+      "industry": "Manufactura de Closets a Gran Escala",
+      "headline": "Una operación de fábrica completa — automatizada de principio a fin",
+      "body": "Roomy Organizers necesitaba conectar todo su flujo de trabajo. ThunderHouse construyó un sistema de extremo a extremo que vincula ventas, producción, inventario y entrega — sin hojas de cálculo desconectadas ni traspasos manuales entre equipos."
+    },
+    "case2": {
+      "badge": "AUTOMATIZACIÓN DE FLUJO CON IA",
+      "industry": "Contabilidad y Cumplimiento",
+      "headline": "Datos del cliente adentro. Radicación al gobierno afuera. Sin pasos manuales.",
+      "body": "Para múltiples firmas de CPA, ThunderHouse construyó un agente de IA donde los clientes someten datos a través de una interfaz guiada. El sistema valida, formatea y publica en portales del gobierno para cumplimiento de auditorías — reduciendo el tiempo de procesamiento y eliminando errores de re-ingreso."
+    },
+    "case3": {
+      "badge": "AUTOMATIZACIÓN DE COMUNICACIÓN",
+      "industry": "Salud · Sin Fines de Lucro · Cuidado de Mascotas",
+      "headline": "Tu equipo dejó de hacer llamadas de recordatorio. Los clientes siguen llegando.",
+      "body": "En clínicas médicas, agencias sin fines de lucro y resorts para mascotas, ThunderHouse reemplazó las llamadas manuales con automatización inteligente de SMS y WhatsApp coordinada con correo electrónico. Los recordatorios salen solos. Los equipos gestionan todo desde un panel. Nadie se queda fuera."
+    },
+    "client1": "Roomy Organizers",
+    "client2": "Firmas de CPA",
+    "client3": "Clínicas Médicas",
+    "client4": "Org. Sin Fines de Lucro",
+    "client5": "Pet Resorts"
+  },
+  "cta": {
+    "headline": "¿Listo para dejar de hacerlo a mano?",
+    "button": "Reserva Tu Llamada Gratuita de 30 Min",
+    "note": "Sin ventas. Sin compromiso. Solo una conversación real sobre tu operación — en español o inglés."
+  },
+  "contact": {
+    "headline": "Hablemos de Tu Operación",
+    "sub": "Cuéntanos con qué lidias. Te diremos qué es posible.",
+    "form": {
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "company": "Nombre de la Empresa",
+      "message": "¿Cuál es tu mayor reto operativo?",
+      "service": "¿Qué servicio te interesa?",
+      "service_build": "Construir — Sitios Web, Apps y Automatizaciones",
+      "service_analyze": "Analizar — Ciencia de Datos e Inteligencia",
+      "service_transform": "Transformar — Estrategia y Consultoría",
+      "service_unsure": "No estoy seguro todavía",
+      "submit": "Enviar Mensaje"
+    },
+    "success": "¡Mensaje enviado! Estaremos en contacto dentro de un día hábil.",
+    "error": "Algo salió mal. Por favor intenta de nuevo o escríbenos directamente.",
+    "calendly_headline": "O reserva una llamada directamente"
+  },
+  "about": {
+    "headline": "Construimos Sistemas de IA para Negocios Reales",
+    "sub": "ThunderHouse es una agencia de implementación de IA creada específicamente para negocios puertorriqueños en Puerto Rico y Orlando, Florida.",
+    "mission_headline": "Nuestra Misión",
+    "mission_body": "Hacer accesible la implementación de IA de nivel empresarial para pequeñas y medianas empresas — con el conocimiento local, el apoyo bilingüe y la responsabilidad total que marca la diferencia entre tecnología que funciona y tecnología que no se usa.",
+    "market_headline": "Puerto Rico + Orlando",
+    "market_body": "Servimos a la comunidad empresarial puertorriqueña donde quiera que opere — desde San Juan hasta Orlando y en todo el camino. Entendemos el mercado, la cultura y los desafíos únicos de construir un negocio en esta comunidad.",
+    "team_headline": "El Equipo",
+    "team_placeholder": "[TODO: Reemplazar con fotos reales + biografías]"
+  },
+  "chat": {
+    "greeting": "¡Hola! Soy el asistente de IA de ThunderHouse. ¿Cuál es tu mayor reto operativo en este momento?",
+    "placeholder": "Escribe tu mensaje...",
+    "cta": "¿Quieres hablar con alguien del equipo? Reserva tu llamada →",
+    "title": "ThunderHouse IA"
+  },
+  "footer": {
+    "tagline": "Tu Negocio. Potenciado por IA.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "copyright": "© 2025 ThunderHouse. Todos los derechos reservados.",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "meta": {
+    "home_title": "ThunderHouse — Agencia de Implementación de IA",
+    "home_desc": "ThunderHouse ayuda a negocios puertorriqueños en PR y Orlando a implementar soluciones de IA que eliminan el trabajo manual, conectan sistemas e impulsan el crecimiento.",
+    "services_title": "Servicios — ThunderHouse",
+    "services_desc": "Construir, Analizar y Transformar — tres pilares de servicio para negocios impulsados por IA.",
+    "about_title": "Nosotros — ThunderHouse",
+    "about_desc": "Conoce a ThunderHouse, la agencia de implementación de IA que sirve a Puerto Rico y Orlando.",
+    "process_title": "Nuestro Proceso — ThunderHouse",
+    "process_desc": "Cómo ThunderHouse construye soluciones de IA: Descubrir, Diagnosticar, Construir, Implementar, Optimizar.",
+    "contact_title": "Contacto — ThunderHouse",
+    "contact_desc": "Ponte en contacto con ThunderHouse. Reserva una llamada de descubrimiento gratuita de 30 minutos."
+  }
+}

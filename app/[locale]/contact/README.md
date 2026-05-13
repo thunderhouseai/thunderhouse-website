@@ -1,0 +1,1 @@
+Contact page with form and Calendly embed. Form: name, email, phone, company, message, service_interest. On submit: POST to /api/contact. Success/error shown inline — never redirects. Calendly inline widget at https://calendly.com/thunderhouseai/30min loaded lazily. Client-side validation first, then server-side in the API route. i18n prefix: contact.*

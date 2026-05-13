@@ -1,0 +1,1 @@
+About page. Mission statement, market focus (Puerto Rico + Orlando), team section (placeholder cards marked // TODO: replace with real photos). Client logo row also placeholder. Fully static — no API calls. i18n prefix: about.*

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 180" fill="none">
+  <!-- Hexagonal background frame -->
+  <polygon
+    points="70,8 128,42 128,112 70,146 12,112 12,42"
+    fill="#0F1520"
+    stroke="#242A5B"
+    stroke-width="2"
+  />
+  <!-- Bolt lightning shape -->
+  <path
+    d="M82 30L40 90H62L54 148L104 82H78L82 30Z"
+    fill="#B4D7E2"
+  />
+  <!-- Inner bolt highlight -->
+  <path
+    d="M82 30L66 55H78L82 30Z"
+    fill="#D4EBF2"
+    opacity="0.6"
+  />
+</svg>

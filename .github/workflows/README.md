@@ -1,0 +1,1 @@
+GitHub Actions CI. Runs on every push to main: npm ci → npm run build → npm run lint. Does NOT deploy — Coolify handles deployment via its own Git webhook. If build or lint fails, fix locally before pushing. Never force-push to main.

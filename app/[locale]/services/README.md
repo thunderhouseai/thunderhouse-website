@@ -1,0 +1,1 @@
+Service pages for all three pillars. page.tsx is the overview with three pillar cards. Each subfolder is a pillar detail page. When adding a new service: update the pillar detail page, update the overview card in page.tsx, and add i18n keys to both en.json and es.json. i18n prefix: services.*. All CTAs link to https://calendly.com/thunderhouseai/30min.

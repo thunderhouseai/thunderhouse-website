@@ -1,0 +1,1 @@
+Full process page — expanded version of the 5-step home page section. Each step has title, full paragraph, and what the client receives at that stage. Uses the same animated timeline component as the home page section but with expanded copy and no truncation. i18n prefix: process.*
