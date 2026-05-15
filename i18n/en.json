@@ -1,215 +1,382 @@
 {
   "nav": {
     "services": "Services",
+    "industries": "Industries",
     "about": "About",
     "process": "Process",
     "contact": "Contact",
-    "cta": "Book a Call"
+    "cta": "Get Free Audit"
   },
   "hero": {
-    "eyebrow": "AI IMPLEMENTATION FOR REAL BUSINESSES",
-    "headline": "Stop Running Your Business Manually",
-    "subheadline": "ThunderHouse finds the bottlenecks in your operation and builds AI systems that eliminate them — so your team focuses on growth, not on reminders, paperwork, and calls that should never happen.",
-    "cta_primary": "Book Your Free Discovery Call",
-    "cta_secondary": "See What We've Built",
+    "eyebrow": "AI IMPLEMENTATION AGENCY — PUERTO RICO & ORLANDO",
+    "headline": "We Find Where You're Losing Clients.",
+    "headline_accent": "Then We Fix It.",
+    "subheadline": "ThunderHouse audits your intake, follow-up, and operations — then builds AI systems to close every gap. We work specifically with doctors, attorneys, and CPAs.",
+    "cta_primary": "Get Your Free AI Audit",
+    "cta_secondary": "See How It Works",
     "stat1": "10+",
     "stat1_sub": "Businesses",
-    "stat1_label": "and counting",
-    "stat2": "5",
-    "stat2_sub": "Industries",
-    "stat2_label": "and counting",
+    "stat1_label": "served in PR & Orlando",
+    "stat2": "3",
+    "stat2_sub": "Leak Types",
+    "stat2_label": "found on average per business",
     "stat3": "0",
     "stat3_sub": "Manual Reminders",
-    "stat3_label": "and counting"
+    "stat3_label": "after we implement"
   },
-  "problem": {
-    "eyebrow": "THE CHALLENGE",
-    "headline": "Your team is working hard. The tools aren't.",
-    "card1": {
-      "title": "Hours lost to manual reminders",
-      "body": "Your team spends hours making calls and sending messages that a system could handle automatically."
+  "leaks": {
+    "eyebrow": "THE 4 LEAK SYSTEM",
+    "headline": "Most businesses are losing clients in 4 places.",
+    "subheadline": "We run a diagnostic audit to find exactly which ones — then we build systems to close them.",
+    "leak1": {
+      "number": "01",
+      "name": "Visibility Leak",
+      "body": "Potential clients can't find you — or don't trust what they see. Google Business Profile gaps, weak local SEO, and inconsistent online presence cost you before anyone contacts you."
     },
-    "card2": {
-      "title": "Data entered twice — or more",
-      "body": "Client data gets submitted, then manually re-entered somewhere else. Every time it moves, errors happen."
+    "leak2": {
+      "number": "02",
+      "name": "Conversion Leak",
+      "body": "People find you but don't contact you. Confusing website copy, unclear next steps, or a booking process that asks too much too soon. Leads visit and leave."
     },
-    "card3": {
-      "title": "Systems that don't talk to each other",
-      "body": "Your CRM, accounting, calendar — all separate. Your people become the connection, and that doesn't scale."
+    "leak3": {
+      "number": "03",
+      "name": "Response Leak",
+      "body": "Leads come in but don't get followed up fast enough. Missed calls, slow email replies, no SMS automation — your competitor answers first."
     },
-    "card4": {
-      "title": "AI feels out of reach",
-      "body": "You know AI could help. But you don't know where to start, what it costs, or who to trust."
-    }
+    "leak4": {
+      "number": "04",
+      "name": "Operations Leak",
+      "body": "You're getting clients but staff is overwhelmed with manual intake, paperwork, reminders, and handoffs. Errors compound. Clients feel the friction."
+    },
+    "cta": "Find Your Leaks — Free Audit"
   },
   "services": {
-    "eyebrow": "WHAT WE DO",
-    "headline": "Three ways we build your AI advantage",
-    "not_sure": "Not sure where to start? Let's figure it out together.",
-    "build": {
-      "name": "BUILD",
-      "tagline": "We design and build your digital infrastructure",
-      "s1": "AI-Powered Websites",
-      "s2": "Web & Mobile Apps",
-      "s3": "Custom AI Tools & Automations",
-      "cta": "Explore Build →",
-      "hero_headline": "Build Your Digital Infrastructure",
-      "hero_sub": "We design and build the digital systems your business runs on — websites, apps, and custom AI automations that work while you sleep."
+    "eyebrow": "WHAT WE IMPLEMENT",
+    "headline": "AI systems for the three biggest bottlenecks",
+    "subheadline": "Every system we build reduces manual work, speeds up response, and helps you serve more clients without adding staff.",
+    "not_sure": "Not sure what you need? The audit tells you.",
+    "intake": {
+      "name": "CLIENT INTAKE AUTOMATION",
+      "tagline": "Capture every lead. Convert more of them.",
+      "s1": "AI-powered intake forms",
+      "s2": "Automated lead routing",
+      "s3": "Smart scheduling & booking flows",
+      "s4": "Document collection automation",
+      "cta": "Explore Intake Automation →",
+      "slug": "client-intake-automation",
+      "hero_headline": "Stop Losing Clients to a Broken Intake Process",
+      "hero_sub": "We build AI-powered intake systems that capture inquiries, collect documents, and route leads automatically — so nothing falls through the cracks.",
+      "problem_headline": "The Problem",
+      "problem_body": "Most professional service businesses lose 20–40% of their leads at the intake stage. The inquiry comes in — by phone, web form, or social media — and then nothing happens fast enough. The lead goes cold. Or worse, a competitor responds first.",
+      "solution_headline": "What We Build",
+      "solution_items": ["Intelligent intake forms that ask the right questions and qualify leads automatically", "Automated routing that sends inquiries to the right person or queue instantly", "Scheduling flows that let prospects book without back-and-forth coordination", "Document collection workflows that gather what you need before the first meeting"],
+      "workflow_headline": "How It Works",
+      "workflow_body": "A prospect fills out your form or calls your number. Within seconds, they receive a confirmation message, a calendar link, or a document request — depending on what stage they're in. Your team sees a qualified, organized lead. No manual work required."
     },
-    "analyze": {
-      "name": "ANALYZE",
-      "tagline": "We turn your data into decisions",
-      "s1": "Data Science & Analytics",
-      "s2": "Business Intelligence Dashboards",
-      "s3": "Custom AI Model Development",
-      "cta": "Explore Analyze →",
-      "hero_headline": "Turn Your Data Into Decisions",
-      "hero_sub": "We surface the insights already hiding in your data — so you can make faster, smarter decisions with confidence."
+    "followup": {
+      "name": "AI FOLLOW-UP SYSTEMS",
+      "tagline": "Never let a lead go cold again.",
+      "s1": "Automated SMS & email follow-up",
+      "s2": "Appointment reminders (SMS, WhatsApp, email)",
+      "s3": "Re-engagement sequences",
+      "s4": "AI chat for after-hours inquiries",
+      "cta": "Explore Follow-Up Systems →",
+      "slug": "ai-follow-up-systems",
+      "hero_headline": "Your Follow-Up Should Never Depend on a Human Remembering",
+      "hero_sub": "We build automated follow-up systems that respond instantly, remind persistently, and re-engage leads — in English and Spanish.",
+      "problem_headline": "The Problem",
+      "problem_body": "The window to convert a lead is short. Research consistently shows that response time is one of the biggest factors in whether a lead converts. Most professional service businesses have no automated follow-up — which means leads that aren't immediately called back are effectively lost.",
+      "solution_headline": "What We Build",
+      "solution_items": ["Instant SMS or email responses when a lead submits a form or misses a call", "Multi-step follow-up sequences that keep leads warm over 3–7 days", "Appointment reminder systems that reduce no-shows via SMS, WhatsApp, and email", "After-hours AI chat that captures inquiries and qualifies leads while you sleep"],
+      "workflow_headline": "How It Works",
+      "workflow_body": "A lead submits a form at 8 PM. Within 60 seconds, they get a personalized SMS response and a calendar link. Over the next 3 days, they receive two more follow-up messages if they haven't booked. Meanwhile, your Calendly is clean, your team gets a notification for confirmed appointments only, and no one chased the lead manually."
     },
-    "transform": {
-      "name": "TRANSFORM",
-      "tagline": "We redesign how your business operates and grows",
-      "s1": "Digital Strategy & Business Modeling",
-      "s2": "AI Marketing Systems",
-      "s3": "Consulting & Advisory",
-      "s4": "In-House Training & Enablement",
-      "cta": "Explore Transform →",
-      "hero_headline": "Transform How You Operate",
-      "hero_sub": "We redesign your operations from the ground up — strategy, marketing, consulting, and the training your team needs to own it."
+    "operations": {
+      "name": "OPERATIONS AUTOMATION",
+      "tagline": "Less manual work. More capacity.",
+      "s1": "Workflow & process automation",
+      "s2": "CRM & system integrations",
+      "s3": "Staff task automation & handoffs",
+      "s4": "Reporting & dashboard automation",
+      "cta": "Explore Operations Automation →",
+      "slug": "operations-automation",
+      "hero_headline": "Your Team Should Be Serving Clients, Not Managing Systems",
+      "hero_sub": "We automate the repetitive operational work — data entry, handoffs, reminders, reporting — so your team focuses on what only humans can do.",
+      "problem_headline": "The Problem",
+      "problem_body": "In most professional service practices, staff spend 2–4 hours per day on work that doesn't require human judgment: entering data, sending reminders, coordinating handoffs, updating spreadsheets. This isn't just inefficient — it's a direct limit on how many clients you can serve.",
+      "solution_headline": "What We Build",
+      "solution_items": ["Workflow automation that connects your intake, CRM, and scheduling tools automatically", "Task handoff systems that alert the right person at the right moment without manual coordination", "Data integration that eliminates re-entry between systems", "Automated reporting dashboards that show you what matters without manual assembly"],
+      "workflow_headline": "How It Works",
+      "workflow_body": "We map your current manual workflows, identify the highest-impact automation opportunities, and build systems that handle the repetitive steps automatically. Your team gets notified only when a human decision is required — everything else happens without them."
     },
     "overview": {
-      "headline": "Everything we do, in one place",
-      "sub": "Three service pillars. One outcome: your business running smarter."
+      "headline": "All our services, in one place",
+      "sub": "Three service areas. One goal: your practice serving more clients with less manual effort."
     }
   },
+  "industries": {
+    "eyebrow": "WHO WE SERVE",
+    "headline": "We specialize in professional service practices",
+    "subheadline": "We focus on three industries because their intake and operations challenges are ones we know how to solve.",
+    "doctors": {
+      "name": "Medical Practices",
+      "tagline": "Patient intake, appointment reminders, and follow-up — automated.",
+      "s1": "Patient inquiry automation",
+      "s2": "Appointment reminders (SMS, WhatsApp, email)",
+      "s3": "Digital intake forms",
+      "s4": "No-show reduction workflows",
+      "cta": "See How It Works for Medical Practices →",
+      "slug": "doctors",
+      "hero_headline": "Your Patients Deserve a Faster, Smoother Intake Experience",
+      "hero_sub": "We build AI-powered systems for medical practices that handle inquiries, send reminders, and collect patient information — reducing staff workload and improving the patient experience.",
+      "pain1_title": "Missed Patient Inquiries",
+      "pain1_body": "Calls that go to voicemail, website forms that no one follows up on, after-hours messages with no response. Every missed inquiry is a patient who called your competitor.",
+      "pain2_title": "Manual Appointment Reminders",
+      "pain2_body": "Staff spending hours calling patients to confirm appointments. No-shows that could have been prevented with automated SMS or WhatsApp reminders sent 48 and 24 hours before.",
+      "pain3_title": "Slow, Fragmented Intake",
+      "pain3_body": "Patients fill out paper forms in the waiting room or email PDFs back and forth. The same information gets manually re-entered into your system. Errors happen. Staff time is wasted.",
+      "pain4_title": "Staff Overload",
+      "pain4_body": "Your front desk handles phones, scheduling, insurance verification, reminders, and patient questions — all at once. Automation lets them focus on the patients in front of them.",
+      "cta_headline": "Ready to automate your patient intake?",
+      "cta_sub": "Start with a free audit of your current process."
+    },
+    "attorneys": {
+      "name": "Law Firms",
+      "tagline": "Lead intake, consultation scheduling, and document collection — systematized.",
+      "s1": "Legal inquiry intake automation",
+      "s2": "Consultation scheduling flows",
+      "s3": "Document collection & e-signature routing",
+      "s4": "Missed call & after-hours follow-up",
+      "cta": "See How It Works for Law Firms →",
+      "slug": "attorneys",
+      "hero_headline": "Your Next Client Shouldn't Have to Wait Two Days for a Response",
+      "hero_sub": "We build AI-powered intake systems for law firms that capture leads instantly, schedule consultations automatically, and collect documents without back-and-forth emails.",
+      "pain1_title": "Leads That Never Get Followed Up",
+      "pain1_body": "Someone fills out your contact form at 9 PM on a Friday. By Monday morning, they've already hired someone else. Automated follow-up responds instantly — even after hours.",
+      "pain2_title": "Consultation Scheduling Back-and-Forth",
+      "pain2_body": "Coordinators manually compare calendars, send email options, wait for replies, confirm, and repeat. A smart scheduling flow handles this in minutes — no staff time required.",
+      "pain3_title": "Document Collection Delays",
+      "pain3_body": "Chasing clients for retainer agreements, intake documents, and case information via email is slow and error-prone. Automated document collection workflows move cases forward without manual follow-up.",
+      "pain4_title": "Missed Calls = Lost Cases",
+      "pain4_body": "When a potential client calls and goes to voicemail, most don't leave a message — they call the next attorney. AI-powered missed call response texts them back instantly.",
+      "cta_headline": "Ready to systematize your client intake?",
+      "cta_sub": "Start with a free audit of your current process."
+    },
+    "cpas": {
+      "name": "CPA Firms",
+      "tagline": "Client reminders, document collection, and deadline management — automated.",
+      "s1": "Tax document collection automation",
+      "s2": "Deadline reminder workflows",
+      "s3": "Client onboarding automation",
+      "s4": "Recurring billing & follow-up",
+      "cta": "See How It Works for CPA Firms →",
+      "slug": "cpas",
+      "hero_headline": "Document Collection Shouldn't Take Weeks",
+      "hero_sub": "We build AI-powered systems for CPA firms that automate document requests, deadline reminders, and client communication — so your team focuses on the actual accounting work.",
+      "pain1_title": "Document Chasing Season",
+      "pain1_body": "Every tax season, your staff spends weeks following up with clients who haven't sent their documents. Automated reminder workflows send the right message at the right time — and track who responded.",
+      "pain2_title": "Manual Deadline Reminders",
+      "pain2_body": "Clients miss deadlines because they weren't reminded at the right moment. Automated workflows send timely reminders via SMS and email — reducing extensions and late filings.",
+      "pain3_title": "Slow Client Onboarding",
+      "pain3_body": "New client onboarding involves forms, document requests, engagement letters, and back-and-forth emails. An automated onboarding flow collects everything and confirms it without manual coordination.",
+      "pain4_title": "Client Communication Gaps",
+      "pain4_body": "Clients don't know where their return is. They call or email for status updates, pulling your team away from actual work. Automated status updates keep clients informed without manual effort.",
+      "cta_headline": "Ready to automate your client communication?",
+      "cta_sub": "Start with a free audit of your current process."
+    }
+  },
+  "audit": {
+    "eyebrow": "FREE OFFER",
+    "headline": "Free AI Client Acquisition Audit",
+    "subheadline": "We review your intake, follow-up, and operational workflows — then give you a clear diagnosis of where you're losing clients and what AI systems would fix it.",
+    "no_pitch": "No pitch. No commitment. Just a real diagnosis.",
+    "what_we_check_headline": "What We Check",
+    "check1_title": "Your Intake Process",
+    "check1_body": "How are you capturing leads from your website, phone, and social media? How fast does someone get a response? What happens if they reach out after hours?",
+    "check2_title": "Your Follow-Up System",
+    "check2_body": "What happens after someone contacts you? Is there an automated sequence, or does it depend on staff remembering to follow up? How many leads go cold?",
+    "check3_title": "Your Appointment & Scheduling Flow",
+    "check3_body": "How easy is it to book a consultation or appointment? How are reminders handled? What's your no-show rate, and is anyone tracking it?",
+    "check4_title": "Your Operational Workflows",
+    "check4_body": "Where is your team spending the most manual time? Document collection, data entry, reminders, handoffs — we identify what can be automated and what the time savings would be.",
+    "check5_title": "Your Digital Presence",
+    "check5_body": "Is your Google Business Profile complete and optimized? Are you appearing in local searches for your practice area? How does your website convert visitors to contacts?",
+    "what_you_get_headline": "What You Receive",
+    "get1": "A written summary of what we found",
+    "get2": "Specific gaps identified in your intake and follow-up",
+    "get3": "A prioritized list of AI systems that would close those gaps",
+    "get4": "Realistic estimates of time and cost for implementation",
+    "get5": "No obligation — you decide if and when to move forward",
+    "who_its_for_headline": "Who This Is For",
+    "who_its_for_body": "This audit is designed for medical practices, law firms, and CPA firms in Puerto Rico and the U.S. that are serious about growing their client base and reducing manual operational work. If your team is still making manual reminder calls, chasing documents by email, or missing leads from after-hours inquiries — this audit will show you exactly what to fix.",
+    "cta_headline": "Request Your Free Audit",
+    "cta_subheadline": "Available in English and Spanish. No sales pressure.",
+    "cta_button": "Request My Free Audit",
+    "faq_headline": "Common Questions",
+    "faq1_q": "Is this actually free?",
+    "faq1_a": "Yes. The audit is completely free with no obligation. We conduct it via a 30-minute video call and follow up with a written summary within 2 business days.",
+    "faq2_q": "How long does the audit take?",
+    "faq2_a": "The discovery call is 30 minutes. We send you the written summary within 2 business days.",
+    "faq3_q": "What happens after the audit?",
+    "faq3_a": "You receive a written diagnosis and a prioritized recommendation. If you want to move forward with implementation, we'll propose a project. If not, you keep the findings.",
+    "faq4_q": "Do I need to be tech-savvy?",
+    "faq4_a": "No. We explain everything in plain language. You don't need to understand the technology — you just need to know your business.",
+    "faq5_q": "Do you work with businesses outside Puerto Rico?",
+    "faq5_a": "Yes. We work with Puerto Rican businesses in Puerto Rico and Orlando, and we take select clients in other U.S. markets on a case-by-case basis."
+  },
   "process": {
-    "eyebrow": "THE PROCESS",
-    "headline": "From problem to solution — five clear steps",
+    "eyebrow": "HOW IT WORKS",
+    "headline": "From audit to automated — five clear steps",
     "step1": {
-      "title": "DISCOVER",
-      "body": "We learn your business, your goals, and your constraints before we touch a single tool."
+      "title": "AUDIT",
+      "body": "We review your intake process, follow-up systems, and operational workflows to find exactly where clients are being lost."
     },
     "step2": {
       "title": "DIAGNOSE",
-      "body": "We map every bottleneck, gap, and AI opportunity specific to your operation."
+      "body": "We deliver a written summary of what we found — specific gaps, missed opportunities, and a prioritized list of what to fix first."
     },
     "step3": {
       "title": "BUILD",
-      "body": "We design and develop the right solution — nothing more, nothing less."
+      "body": "We design and build the AI systems identified in the diagnosis — intake flows, follow-up sequences, scheduling automation, or operational workflows."
     },
     "step4": {
-      "title": "DEPLOY",
-      "body": "We install, integrate, and train your team so adoption actually happens."
+      "title": "AUTOMATE",
+      "body": "We integrate the systems into your existing tools, train your team, and make sure everything runs without manual intervention."
     },
     "step5": {
-      "title": "OPTIMIZE",
-      "body": "We monitor, measure, and improve — because good systems get better over time."
+      "title": "IMPROVE",
+      "body": "We monitor performance, measure results, and make adjustments. Systems that work should get better over time."
     },
     "full_headline": "How ThunderHouse Works",
-    "full_sub": "A repeatable process built for real businesses — transparent, collaborative, and focused on results you can measure."
+    "full_sub": "A diagnostic-first process built for professional service businesses — transparent, practical, and focused on measurable results."
   },
   "whyus": {
-    "eyebrow": "WHY US",
+    "eyebrow": "WHY THUNDERHOUSE",
     "headline": "We're not a software vendor. We're your implementation partner.",
     "col1": {
-      "title": "Local Expertise",
-      "body": "We work specifically with Puerto Rican businesses in PR and Orlando. We know your market, your culture, and your clients. We speak your language — literally."
+      "title": "Diagnostic First",
+      "body": "We don't sell you a system before we understand your problem. Every engagement starts with an audit — so the solution is specific to what you actually need, not what we want to sell."
     },
     "col2": {
-      "title": "End-to-End Ownership",
-      "body": "We don't hand off. We build, deploy, train your team, and stay. If something isn't working, we fix it — because we own the outcome, not just the deliverable."
+      "title": "Bilingual, Puerto Rico-Rooted",
+      "body": "We serve the Puerto Rican business community in Puerto Rico and Orlando. We understand the market, the clients, and the culture. We work in English and Spanish."
     },
     "col3": {
-      "title": "AI-First Mindset",
-      "body": "Every solution starts with one question: how can AI make this better? Not AI for the sake of it — AI that saves time, reduces errors, and helps your team do more."
+      "title": "End-to-End Ownership",
+      "body": "We build it, deploy it, train your team, and stay with it. If something isn't working, we fix it. We own the outcome — not just the deliverable."
     }
   },
   "proof": {
-    "metric": "100% of manual reminder calls — eliminated.",
-    "metric_sub": "Automated across SMS, WhatsApp, and email.",
+    "eyebrow": "RESULTS",
+    "metric": "Manual reminder calls eliminated across every client we've automated.",
+    "metric_sub": "Replaced with automated SMS, WhatsApp, and email workflows.",
     "case1": {
-      "badge": "END-TO-END AUTOMATION",
-      "industry": "Large-Scale Closet Manufacturing",
+      "badge": "OPERATIONS AUTOMATION",
+      "industry": "Manufacturing",
       "headline": "A full factory operation — automated from order to delivery",
-      "body": "Roomy Organizers needed their entire workflow connected. ThunderHouse built an end-to-end system linking sales, production, inventory, and fulfillment — no more disconnected spreadsheets or manual handoffs between teams."
+      "body": "Roomy Organizers needed their entire workflow connected. We built an end-to-end system linking sales, production, inventory, and fulfillment — no more disconnected spreadsheets or manual handoffs between teams."
     },
     "case2": {
-      "badge": "AI WORKFLOW AUTOMATION",
+      "badge": "WORKFLOW AUTOMATION",
       "industry": "Accounting & Compliance",
       "headline": "Client data in. Government filing out. Zero manual steps.",
-      "body": "For multiple CPA firms, ThunderHouse built an AI agent where clients submit data through a guided interface. The system automatically validates, formats, and publishes directly to government portals for auditing compliance — cutting processing time dramatically and eliminating re-entry errors."
+      "body": "For CPA firms, we built an AI-powered workflow where clients submit documents through a guided interface. The system validates, formats, and submits to government portals — eliminating re-entry errors and cutting processing time."
     },
     "case3": {
       "badge": "COMMUNICATION AUTOMATION",
       "industry": "Healthcare · Non-Profit · Pet Care",
       "headline": "Your team stopped making reminder calls. Clients still show up.",
-      "body": "Across medical clinics, non-profit agencies, and pet resorts, ThunderHouse replaced manual phone trees with intelligent SMS and WhatsApp automation coordinated with email. Reminders go out automatically. Teams manage everything from one dashboard. No one falls through the cracks."
-    },
-    "client1": "Roomy Organizers",
-    "client2": "CPA Partners",
-    "client3": "Medical Clinics",
-    "client4": "Non-Profit Orgs",
-    "client5": "Pet Resorts"
+      "body": "Across medical clinics, non-profit agencies, and pet resorts, we replaced manual phone trees with automated SMS and WhatsApp reminders coordinated with email. Teams manage everything from one dashboard."
+    }
   },
   "cta": {
-    "headline": "Ready to stop doing it manually?",
-    "button": "Book Your Free 30-Min Call",
-    "note": "No pitch. No commitment. Just a real conversation about your operation — in English or Spanish."
+    "headline": "Find out where you're losing clients.",
+    "subheadline": "The audit is free. The findings are yours to keep.",
+    "button": "Get Your Free AI Audit",
+    "note": "No pitch. No commitment. Available in English and Spanish."
   },
   "contact": {
-    "headline": "Let's Talk About Your Operation",
+    "headline": "Let's Talk About Your Business",
     "sub": "Tell us what you're dealing with. We'll tell you what's possible.",
     "form": {
       "name": "Full Name",
       "email": "Email Address",
       "phone": "Phone Number",
-      "company": "Company Name",
-      "message": "What's your biggest operational challenge?",
-      "service": "Which service interests you?",
-      "service_build": "Build — Websites, Apps & Automations",
-      "service_analyze": "Analyze — Data Science & BI",
-      "service_transform": "Transform — Strategy & Consulting",
+      "company": "Practice / Company Name",
+      "message": "What's your biggest challenge right now?",
+      "service": "What best describes your situation?",
+      "service_intake": "Intake & Lead Capture",
+      "service_followup": "Follow-Up & Communication",
+      "service_operations": "Operations & Workflow",
+      "service_audit": "I want the free audit first",
       "service_unsure": "Not sure yet",
       "submit": "Send Message"
     },
-    "success": "Message sent! We'll be in touch within one business day.",
+    "success": "Message received. We'll be in touch within one business day.",
     "error": "Something went wrong. Please try again or email us directly.",
-    "calendly_headline": "Or book a call directly"
+    "calendly_headline": "Or book a 30-minute call directly"
   },
   "about": {
-    "headline": "We Build AI Systems for Real Businesses",
-    "sub": "ThunderHouse is an AI implementation agency built specifically for Puerto Rican businesses in Puerto Rico and Orlando, Florida.",
-    "mission_headline": "Our Mission",
-    "mission_body": "To make enterprise-level AI implementation accessible to small and mid-size businesses — with the local knowledge, bilingual support, and end-to-end ownership that makes the difference between technology that works and technology that sits unused.",
+    "headline": "We Build AI Systems for Professional Service Businesses",
+    "sub": "ThunderHouse is an AI implementation agency that specializes in helping doctors, attorneys, and CPAs fix the gaps that cost them clients.",
+    "mission_headline": "Our Approach",
+    "mission_body": "We start with a diagnostic audit — not a sales pitch. We find where you're losing clients, explain it clearly, and then build the AI systems to fix it. We don't sell technology for technology's sake. We implement systems that solve specific, measurable business problems.",
     "market_headline": "Puerto Rico + Orlando",
-    "market_body": "We serve the Puerto Rican business community wherever they operate — from San Juan to Orlando and everywhere in between. We understand the market, the culture, and the unique challenges of building a business in this community.",
+    "market_body": "We serve the Puerto Rican business community in Puerto Rico and Orlando, Florida. We work in English and Spanish, and we understand the market, the culture, and the unique dynamics of building a professional service practice in this community.",
     "team_headline": "The Team",
     "team_placeholder": "[TODO: Replace with real photos + bios]"
   },
   "chat": {
-    "greeting": "Hi! I'm the ThunderHouse AI assistant. What's your biggest operational challenge right now?",
+    "greeting": "Hi! I'm the ThunderHouse AI assistant. Are you a doctor, attorney, or CPA looking to automate your intake or operations?",
     "placeholder": "Type your message...",
-    "cta": "Want to talk to a real person? Book a free call →",
+    "cta": "Want a real diagnosis? Get your free audit →",
     "title": "ThunderHouse AI"
   },
   "footer": {
-    "tagline": "Your Business. Supercharged by AI.",
+    "tagline": "AI Implementation for Professional Service Businesses.",
     "services": "Services",
+    "industries": "Industries",
     "company": "Company",
     "copyright": "© 2025 ThunderHouse. All rights reserved.",
     "linkedin": "LinkedIn",
-    "instagram": "Instagram"
+    "instagram": "Instagram",
+    "nav_intake": "Client Intake Automation",
+    "nav_followup": "AI Follow-Up Systems",
+    "nav_operations": "Operations Automation",
+    "nav_doctors": "Medical Practices",
+    "nav_attorneys": "Law Firms",
+    "nav_cpas": "CPA Firms",
+    "nav_audit": "Free AI Audit",
+    "nav_about": "About",
+    "nav_process": "How It Works",
+    "nav_contact": "Contact"
   },
   "meta": {
-    "home_title": "ThunderHouse — AI Implementation Agency",
-    "home_desc": "ThunderHouse helps Puerto Rican businesses in PR and Orlando implement AI solutions that eliminate manual work, connect systems, and drive growth.",
-    "services_title": "Services — ThunderHouse",
-    "services_desc": "Build, Analyze, and Transform — three service pillars for AI-powered businesses.",
-    "about_title": "About — ThunderHouse",
-    "about_desc": "Learn about ThunderHouse, the AI implementation agency serving Puerto Rico and Orlando.",
-    "process_title": "Our Process — ThunderHouse",
-    "process_desc": "How ThunderHouse builds AI solutions: Discover, Diagnose, Build, Deploy, Optimize.",
-    "contact_title": "Contact — ThunderHouse",
-    "contact_desc": "Get in touch with ThunderHouse. Book a free 30-minute discovery call."
+    "home_title": "ThunderHouse — AI Implementation for Doctors, Attorneys & CPAs",
+    "home_desc": "ThunderHouse finds where you're losing clients, then builds AI systems to fix it. Serving professional service businesses in Puerto Rico and Orlando.",
+    "services_title": "AI Implementation Services — ThunderHouse",
+    "services_desc": "Client intake automation, AI follow-up systems, and operations automation for medical practices, law firms, and CPA firms in Puerto Rico and Orlando.",
+    "audit_title": "Free AI Client Acquisition Audit — ThunderHouse",
+    "audit_desc": "Get a free diagnostic review of your intake, follow-up, and operations. We identify where you're losing clients and what AI systems would fix it.",
+    "industries_title": "Industries We Serve — ThunderHouse",
+    "industries_desc": "AI implementation for medical practices, law firms, and CPA firms in Puerto Rico and Orlando. Bilingual English and Spanish support.",
+    "doctors_title": "AI Automation for Medical Practices — ThunderHouse",
+    "doctors_desc": "Patient intake automation, appointment reminders, and follow-up systems for doctor offices and medical practices in Puerto Rico and Orlando.",
+    "attorneys_title": "AI Automation for Law Firms — ThunderHouse",
+    "attorneys_desc": "Lead intake automation, consultation scheduling, and document collection systems for attorneys and law firms in Puerto Rico and Orlando.",
+    "cpas_title": "AI Automation for CPA Firms — ThunderHouse",
+    "cpas_desc": "Document collection automation, deadline reminders, and client communication systems for CPA and accounting firms in Puerto Rico and Orlando.",
+    "intake_title": "Client Intake Automation — ThunderHouse",
+    "intake_desc": "AI-powered intake forms, lead routing, and scheduling automation for professional service businesses. Stop losing leads to a broken intake process.",
+    "followup_title": "AI Follow-Up Systems — ThunderHouse",
+    "followup_desc": "Automated SMS, email, and WhatsApp follow-up that keeps leads warm and clients informed — without manual effort.",
+    "operations_title": "Operations Automation — ThunderHouse",
+    "operations_desc": "Workflow automation, CRM integrations, and task automation for professional service businesses. Reduce manual work and increase capacity.",
+    "about_title": "About ThunderHouse — AI Implementation Agency",
+    "about_desc": "ThunderHouse is an AI implementation agency serving doctors, attorneys, and CPAs in Puerto Rico and Orlando. Diagnostic-first. Bilingual. End-to-end.",
+    "process_title": "How It Works — ThunderHouse",
+    "process_desc": "Audit, Diagnose, Build, Automate, Improve. Discover how ThunderHouse implements AI systems for professional service businesses.",
+    "contact_title": "Contact ThunderHouse — Get Your Free AI Audit",
+    "contact_desc": "Contact ThunderHouse to request your free AI client acquisition audit. Available in English and Spanish for businesses in Puerto Rico and Orlando."
   }
 }

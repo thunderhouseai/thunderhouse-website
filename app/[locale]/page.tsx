@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Hero } from "@/components/sections/Hero";
-import { Problem } from "@/components/sections/Problem";
+import { LeakSystem } from "@/components/sections/LeakSystem";
 import { Services } from "@/components/sections/Services";
+import { Industries } from "@/components/sections/Industries";
 import { Process } from "@/components/sections/Process";
 import { WhyUs } from "@/components/sections/WhyUs";
 import { SocialProof } from "@/components/sections/SocialProof";
@@ -41,8 +42,9 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <Problem />
+      <LeakSystem />
       <Services />
+      <Industries />
       <Process />
       <WhyUs />
       <SocialProof />

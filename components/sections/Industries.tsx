@@ -3,23 +3,23 @@
 import Link from "next/link";
 import { motion } from "motion/react";
 import { useTranslations, useLocale } from "next-intl";
-import { Users, MessageSquare, Settings } from "lucide-react";
+import { Stethoscope, Scale, Calculator } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { fadeUp, staggerContainer, staggerItem } from "@/lib/animations";
 
-type ServiceKey = "intake" | "followup" | "operations";
+type IndustryKey = "doctors" | "attorneys" | "cpas";
 
-const icons: Record<ServiceKey, React.ElementType> = {
-  intake: Users,
-  followup: MessageSquare,
-  operations: Settings,
+const icons: Record<IndustryKey, React.ElementType> = {
+  doctors: Stethoscope,
+  attorneys: Scale,
+  cpas: Calculator,
 };
 
-export function Services() {
-  const t = useTranslations("services");
+export function Industries() {
+  const t = useTranslations("industries");
   const locale = useLocale();
 
-  const serviceKeys: ServiceKey[] = ["intake", "followup", "operations"];
+  const industries: IndustryKey[] = ["doctors", "attorneys", "cpas"];
 
   return (
     <section className="py-24 md:py-32">
@@ -55,15 +55,15 @@ export function Services() {
           </motion.p>
         </div>
 
-        {/* Service cards */}
+        {/* Industry cards */}
         <motion.div
           variants={staggerContainer}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6"
         >
-          {serviceKeys.map((key) => {
+          {industries.map((key) => {
             const Icon = icons[key];
             const services = [
               t(`${key}.s1` as `${typeof key}.s1`),
@@ -80,7 +80,7 @@ export function Services() {
                       <Icon size={20} className="text-[--color-steel]" />
                     </div>
                     <h3
-                      className="text-xl font-bold text-[--color-steel]"
+                      className="text-lg font-bold text-[--color-text]"
                       style={{ fontFamily: "Syne, sans-serif" }}
                     >
                       {t(`${key}.name` as `${typeof key}.name`)}
@@ -98,7 +98,7 @@ export function Services() {
                     ))}
                   </ul>
                   <Link
-                    href={`/${locale}/services/${t(`${key}.slug` as `${typeof key}.slug`)}`}
+                    href={`/${locale}/industries/${t(`${key}.slug` as `${typeof key}.slug`)}`}
                     className="text-sm font-semibold text-[--color-steel] hover:text-[--color-cta-hover] transition-colors"
                   >
                     {t(`${key}.cta` as `${typeof key}.cta`)}
@@ -108,23 +108,6 @@ export function Services() {
             );
           })}
         </motion.div>
-
-        {/* Bottom note */}
-        <motion.p
-          initial={fadeUp.initial}
-          whileInView={fadeUp.animate}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-center text-sm text-[--color-muted]"
-        >
-          {t("not_sure")}{" "}
-          <Link
-            href={`/${locale}/ai-intake-audit`}
-            className="text-[--color-steel] hover:text-[--color-cta-hover] underline underline-offset-2 transition-colors"
-          >
-            {t("not_sure")}
-          </Link>
-        </motion.p>
       </div>
     </section>
   );

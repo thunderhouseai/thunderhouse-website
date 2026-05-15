@@ -54,9 +54,10 @@ export function ContactForm() {
   };
 
   const serviceOptions = [
-    { value: "build", label: t("form.service_build") },
-    { value: "analyze", label: t("form.service_analyze") },
-    { value: "transform", label: t("form.service_transform") },
+    { value: "intake", label: t("form.service_intake") },
+    { value: "followup", label: t("form.service_followup") },
+    { value: "operations", label: t("form.service_operations") },
+    { value: "audit", label: t("form.service_audit") },
     { value: "unsure", label: t("form.service_unsure") },
   ];
 

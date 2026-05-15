@@ -1,1 +1,0 @@
-Pillar 2 — ANALYZE detail page. Covers: Data Science & Analytics, Business Intelligence Dashboards, Custom AI Model Development. i18n prefix: services.analyze.* CTA links to https://calendly.com/thunderhouseai/30min.

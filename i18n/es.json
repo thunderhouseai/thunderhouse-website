@@ -1,215 +1,382 @@
 {
   "nav": {
     "services": "Servicios",
+    "industries": "Industrias",
     "about": "Nosotros",
     "process": "Proceso",
     "contact": "Contacto",
-    "cta": "Reservar Llamada"
+    "cta": "Auditoría Gratis"
   },
   "hero": {
-    "eyebrow": "IMPLEMENTACIÓN DE IA PARA NEGOCIOS REALES",
-    "headline": "Deja de Operar Tu Negocio a Mano",
-    "subheadline": "ThunderHouse identifica los cuellos de botella en tu operación y construye sistemas de IA que los eliminan — para que tu equipo se enfoque en crecer, no en recordatorios, papeleo y llamadas que nunca deberían ocurrir.",
-    "cta_primary": "Reserva Tu Llamada Gratuita",
-    "cta_secondary": "Ve Lo Que Hemos Construido",
+    "eyebrow": "AGENCIA DE IMPLEMENTACIÓN DE IA — PUERTO RICO Y ORLANDO",
+    "headline": "Encontramos Dónde Estás Perdiendo Clientes.",
+    "headline_accent": "Y Lo Arreglamos.",
+    "subheadline": "ThunderHouse audita tu proceso de captación, seguimiento y operaciones — y luego implementa sistemas de IA para cerrar cada brecha. Trabajamos con médicos, abogados y contables.",
+    "cta_primary": "Solicita tu Auditoría Gratis",
+    "cta_secondary": "Ve Cómo Funciona",
     "stat1": "10+",
     "stat1_sub": "Negocios",
-    "stat1_label": "y contando",
-    "stat2": "5",
-    "stat2_sub": "Industrias",
-    "stat2_label": "y contando",
+    "stat1_label": "en PR y Orlando",
+    "stat2": "3",
+    "stat2_sub": "Fugas Encontradas",
+    "stat2_label": "en promedio por negocio",
     "stat3": "0",
     "stat3_sub": "Recordatorios Manuales",
-    "stat3_label": "y contando"
+    "stat3_label": "después de implementar"
   },
-  "problem": {
-    "eyebrow": "EL DESAFÍO",
-    "headline": "Tu equipo trabaja duro. Las herramientas, no.",
-    "card1": {
-      "title": "Horas perdidas en recordatorios manuales",
-      "body": "Tu equipo pasa horas haciendo llamadas y enviando mensajes que un sistema podría manejar automáticamente."
+  "leaks": {
+    "eyebrow": "EL SISTEMA DE LAS 4 FUGAS",
+    "headline": "La mayoría de los negocios pierden clientes en 4 puntos.",
+    "subheadline": "Hacemos una auditoría diagnóstica para encontrar exactamente cuáles son — y luego construimos sistemas para cerrarlos.",
+    "leak1": {
+      "number": "01",
+      "name": "Fuga de Visibilidad",
+      "body": "Los clientes potenciales no te encuentran — o no confían en lo que ven. Problemas en Google Business Profile, SEO local deficiente y presencia digital inconsistente te cuestan clientes antes de que nadie te contacte."
     },
-    "card2": {
-      "title": "Datos ingresados dos veces — o más",
-      "body": "Los datos se someten y luego se vuelven a ingresar manualmente. Cada vez que se mueven, ocurren errores."
+    "leak2": {
+      "number": "02",
+      "name": "Fuga de Conversión",
+      "body": "Te encuentran pero no te contactan. Página confusa, proceso de reserva complicado o sin un próximo paso claro. Los prospectos visitan tu página y se van sin actuar."
     },
-    "card3": {
-      "title": "Sistemas que no se comunican",
-      "body": "Tu CRM, contabilidad, calendario — todos separados. Tu gente se convierte en el enlace, y eso no escala."
+    "leak3": {
+      "number": "03",
+      "name": "Fuga de Respuesta",
+      "body": "Los prospectos llegan pero no reciben seguimiento a tiempo. Llamadas perdidas, respuestas lentas por correo, sin SMS automático — tu competidor contesta primero."
     },
-    "card4": {
-      "title": "La IA parece inalcanzable",
-      "body": "Sabes que la IA puede ayudar. Pero no sabes por dónde empezar, cuánto cuesta, ni en quién confiar."
-    }
+    "leak4": {
+      "number": "04",
+      "name": "Fuga de Operaciones",
+      "body": "Estás recibiendo clientes pero tu equipo está abrumado con intake manual, papeleo, recordatorios y traspasos. Los errores se acumulan. Los clientes lo sienten."
+    },
+    "cta": "Encuentra Tus Fugas — Auditoría Gratis"
   },
   "services": {
-    "eyebrow": "LO QUE HACEMOS",
-    "headline": "Tres formas en que construimos tu ventaja con IA",
-    "not_sure": "¿No sabes por dónde empezar? Lo resolveremos juntos.",
-    "build": {
-      "name": "CONSTRUIR",
-      "tagline": "Diseñamos y construimos tu infraestructura digital",
-      "s1": "Sitios Web con IA",
-      "s2": "Apps Web y Móviles",
-      "s3": "Herramientas de IA y Automatizaciones",
-      "cta": "Explorar Construir →",
-      "hero_headline": "Construye Tu Infraestructura Digital",
-      "hero_sub": "Diseñamos y construimos los sistemas digitales en los que opera tu negocio — sitios web, apps y automatizaciones de IA que trabajan mientras descansas."
+    "eyebrow": "LO QUE IMPLEMENTAMOS",
+    "headline": "Sistemas de IA para los tres cuellos de botella más grandes",
+    "subheadline": "Cada sistema que construimos reduce el trabajo manual, acelera la respuesta y te ayuda a atender más clientes sin agregar personal.",
+    "not_sure": "¿No sabes qué necesitas? La auditoría te lo dice.",
+    "intake": {
+      "name": "AUTOMATIZACIÓN DE CAPTACIÓN",
+      "tagline": "Captura cada prospecto. Convierte más de ellos.",
+      "s1": "Formularios de captación con IA",
+      "s2": "Enrutamiento automático de prospectos",
+      "s3": "Flujos inteligentes de agenda y citas",
+      "s4": "Automatización de recopilación de documentos",
+      "cta": "Explorar Automatización de Captación →",
+      "slug": "client-intake-automation",
+      "hero_headline": "Deja de Perder Clientes por un Proceso de Captación Deficiente",
+      "hero_sub": "Construimos sistemas de captación con IA que reciben consultas, recopilan documentos y enrutan prospectos automáticamente — para que nada quede sin atender.",
+      "problem_headline": "El Problema",
+      "problem_body": "La mayoría de los negocios de servicios profesionales pierden entre el 20 y 40% de sus prospectos en la etapa de captación. La consulta llega — por teléfono, formulario web o redes sociales — y luego no pasa nada con suficiente rapidez. El prospecto se enfría. O peor, un competidor responde primero.",
+      "solution_headline": "Lo Que Construimos",
+      "solution_items": ["Formularios de captación inteligentes que hacen las preguntas correctas y califican prospectos automáticamente", "Enrutamiento automático que envía consultas a la persona o cola correcta al instante", "Flujos de agenda que permiten a los prospectos reservar sin coordinación manual de ida y vuelta", "Flujos de recopilación de documentos que reúnen lo que necesitas antes de la primera reunión"],
+      "workflow_headline": "Cómo Funciona",
+      "workflow_body": "Un prospecto llena tu formulario o llama a tu número. En segundos, recibe un mensaje de confirmación, un enlace de calendario o una solicitud de documentos — según la etapa en la que se encuentre. Tu equipo ve un prospecto calificado y organizado. No se requiere trabajo manual."
     },
-    "analyze": {
-      "name": "ANALIZAR",
-      "tagline": "Convertimos tus datos en decisiones",
-      "s1": "Ciencia de Datos y Analítica",
-      "s2": "Dashboards de Inteligencia de Negocio",
-      "s3": "Desarrollo de Modelos de IA",
-      "cta": "Explorar Analizar →",
-      "hero_headline": "Convierte Tus Datos en Decisiones",
-      "hero_sub": "Sacamos a la superficie los insights que ya están escondidos en tus datos — para que puedas tomar decisiones más rápidas e inteligentes con confianza."
+    "followup": {
+      "name": "SISTEMAS DE SEGUIMIENTO CON IA",
+      "tagline": "Nunca más dejes enfriar un prospecto.",
+      "s1": "Seguimiento automático por SMS y correo",
+      "s2": "Recordatorios de cita (SMS, WhatsApp, email)",
+      "s3": "Secuencias de re-captación",
+      "s4": "Chat con IA para consultas fuera de horario",
+      "cta": "Explorar Sistemas de Seguimiento →",
+      "slug": "ai-follow-up-systems",
+      "hero_headline": "Tu Seguimiento No Debería Depender de que Alguien lo Recuerde",
+      "hero_sub": "Construimos sistemas de seguimiento automático que responden de inmediato, recuerdan con constancia y re-captan prospectos — en inglés y español.",
+      "problem_headline": "El Problema",
+      "problem_body": "La ventana para convertir un prospecto es corta. El tiempo de respuesta es uno de los factores más importantes para determinar si un prospecto se convierte. La mayoría de los negocios de servicios profesionales no tienen seguimiento automatizado — lo que significa que los prospectos que no son contactados de inmediato se pierden efectivamente.",
+      "solution_headline": "Lo Que Construimos",
+      "solution_items": ["Respuestas instantáneas por SMS o correo cuando un prospecto llena un formulario o pierde una llamada", "Secuencias de seguimiento de múltiples pasos que mantienen los prospectos activos durante 3 a 7 días", "Sistemas de recordatorio de citas que reducen los no-shows por SMS, WhatsApp y correo", "Chat con IA fuera de horario que captura consultas y califica prospectos mientras descansas"],
+      "workflow_headline": "Cómo Funciona",
+      "workflow_body": "Un prospecto llena un formulario a las 8 PM. En 60 segundos, recibe un SMS personalizado y un enlace de calendario. En los próximos 3 días, recibe dos mensajes de seguimiento más si no ha reservado. Mientras tanto, tu Calendly está limpio, tu equipo recibe una notificación solo para citas confirmadas y nadie persiguió al prospecto manualmente."
     },
-    "transform": {
-      "name": "TRANSFORMAR",
-      "tagline": "Rediseñamos cómo opera y crece tu negocio",
-      "s1": "Estrategia Digital y Modelado de Negocios",
-      "s2": "Sistemas de Marketing con IA",
-      "s3": "Consultoría y Asesoría",
-      "s4": "Capacitación Interna y Habilitación",
-      "cta": "Explorar Transformar →",
-      "hero_headline": "Transforma Cómo Operas",
-      "hero_sub": "Rediseñamos tus operaciones desde la base — estrategia, marketing, consultoría y la capacitación que tu equipo necesita para ser dueño del proceso."
+    "operations": {
+      "name": "AUTOMATIZACIÓN DE OPERACIONES",
+      "tagline": "Menos trabajo manual. Más capacidad.",
+      "s1": "Automatización de flujos y procesos",
+      "s2": "Integraciones de CRM y sistemas",
+      "s3": "Automatización de tareas y traspasos del equipo",
+      "s4": "Reportes y dashboards automáticos",
+      "cta": "Explorar Automatización de Operaciones →",
+      "slug": "operations-automation",
+      "hero_headline": "Tu Equipo Debería Atender Clientes, No Administrar Sistemas",
+      "hero_sub": "Automatizamos el trabajo operativo repetitivo — entrada de datos, traspasos, recordatorios, reportes — para que tu equipo se enfoque en lo que solo los humanos pueden hacer.",
+      "problem_headline": "El Problema",
+      "problem_body": "En la mayoría de los consultorios de servicios profesionales, el personal pasa de 2 a 4 horas al día en trabajo que no requiere juicio humano: ingresar datos, enviar recordatorios, coordinar traspasos, actualizar hojas de cálculo. Esto no solo es ineficiente — es un límite directo en cuántos clientes puedes atender.",
+      "solution_headline": "Lo Que Construimos",
+      "solution_items": ["Automatización de flujos que conecta tus herramientas de captación, CRM y agenda automáticamente", "Sistemas de traspaso de tareas que alertan a la persona correcta en el momento correcto sin coordinación manual", "Integración de datos que elimina la re-entrada entre sistemas", "Dashboards de reporte automatizados que te muestran lo que importa sin ensamblaje manual"],
+      "workflow_headline": "Cómo Funciona",
+      "workflow_body": "Mapeamos tus flujos manuales actuales, identificamos las oportunidades de automatización de mayor impacto y construimos sistemas que manejan los pasos repetitivos automáticamente. Tu equipo recibe notificaciones solo cuando se requiere una decisión humana — todo lo demás ocurre sin ellos."
     },
     "overview": {
-      "headline": "Todo lo que hacemos, en un solo lugar",
-      "sub": "Tres pilares de servicio. Un resultado: tu negocio operando más inteligente."
+      "headline": "Todos nuestros servicios, en un solo lugar",
+      "sub": "Tres áreas de servicio. Un objetivo: tu práctica atendiendo más clientes con menos esfuerzo manual."
     }
   },
+  "industries": {
+    "eyebrow": "A QUIÉNES SERVIMOS",
+    "headline": "Nos especializamos en negocios de servicios profesionales",
+    "subheadline": "Nos enfocamos en tres industrias porque conocemos sus retos de captación y operaciones — y sabemos cómo resolverlos.",
+    "doctors": {
+      "name": "Consultorios Médicos",
+      "tagline": "Captación de pacientes, recordatorios de citas y seguimiento — automatizados.",
+      "s1": "Automatización de consultas de pacientes",
+      "s2": "Recordatorios de cita (SMS, WhatsApp, email)",
+      "s3": "Formularios digitales de intake",
+      "s4": "Flujos para reducir no-shows",
+      "cta": "Ve Cómo Funciona para Consultorios Médicos →",
+      "slug": "doctors",
+      "hero_headline": "Tus Pacientes Merecen una Experiencia de Captación Más Rápida y Fluida",
+      "hero_sub": "Construimos sistemas con IA para consultorios médicos que manejan consultas, envían recordatorios y recopilan información del paciente — reduciendo la carga del personal y mejorando la experiencia del paciente.",
+      "pain1_title": "Consultas de Pacientes Sin Respuesta",
+      "pain1_body": "Llamadas que van al buzón, formularios en la página que nadie sigue, mensajes fuera de horario sin respuesta. Cada consulta perdida es un paciente que llamó a tu competidor.",
+      "pain2_title": "Recordatorios de Cita Manuales",
+      "pain2_body": "El personal pasa horas llamando pacientes para confirmar citas. Los no-shows se pueden prevenir con recordatorios automáticos por SMS o WhatsApp enviados 48 y 24 horas antes.",
+      "pain3_title": "Captación Lenta y Fragmentada",
+      "pain3_body": "Los pacientes llenan formularios en papel en la sala de espera o envían PDFs por correo. La misma información se re-ingresa manualmente al sistema. Errores ocurren. Se pierde tiempo del personal.",
+      "pain4_title": "Personal Sobrecargado",
+      "pain4_body": "Tu recepcionista maneja llamadas, citas, verificación de seguros, recordatorios y preguntas — todo al mismo tiempo. La automatización les permite enfocarse en los pacientes que tienen al frente.",
+      "cta_headline": "¿Listo para automatizar el intake de tus pacientes?",
+      "cta_sub": "Comienza con una auditoría gratuita de tu proceso actual."
+    },
+    "attorneys": {
+      "name": "Firmas de Abogados",
+      "tagline": "Captación de casos, agenda de consultas y recopilación de documentos — sistematizados.",
+      "s1": "Automatización de intake de consultas legales",
+      "s2": "Flujos de agenda de consultas",
+      "s3": "Recopilación de documentos y firma electrónica",
+      "s4": "Seguimiento por llamadas perdidas y fuera de horario",
+      "cta": "Ve Cómo Funciona para Firmas de Abogados →",
+      "slug": "attorneys",
+      "hero_headline": "Tu Próximo Cliente No Debería Esperar Dos Días para una Respuesta",
+      "hero_sub": "Construimos sistemas de captación con IA para firmas de abogados que capturan prospectos al instante, agendan consultas automáticamente y recopilan documentos sin correos de ida y vuelta.",
+      "pain1_title": "Prospectos Sin Seguimiento",
+      "pain1_body": "Alguien llena tu formulario un viernes a las 9 PM. Para el lunes ya contrató a otro abogado. El seguimiento automático responde al instante — incluso fuera de horario.",
+      "pain2_title": "Coordinación Manual de Consultas",
+      "pain2_body": "Las coordinadoras comparan calendarios manualmente, envían opciones por correo, esperan respuesta, confirman y repiten. Un flujo de agenda inteligente lo resuelve en minutos — sin tiempo del personal.",
+      "pain3_title": "Demoras en Recopilación de Documentos",
+      "pain3_body": "Perseguir clientes por correo para acuerdos de representación, formularios de intake e información del caso es lento y propenso a errores. Los flujos automatizados mueven los casos hacia adelante.",
+      "pain4_title": "Llamadas Perdidas = Casos Perdidos",
+      "pain4_body": "Cuando un prospecto llama y va al buzón, la mayoría no deja mensaje — llama al próximo abogado. La respuesta automática por SMS tras una llamada perdida los retiene al instante.",
+      "cta_headline": "¿Listo para sistematizar tu captación de clientes?",
+      "cta_sub": "Comienza con una auditoría gratuita de tu proceso actual."
+    },
+    "cpas": {
+      "name": "Firmas de CPA",
+      "tagline": "Recordatorios a clientes, recopilación de documentos y gestión de fechas límite — automatizados.",
+      "s1": "Automatización de recopilación de documentos fiscales",
+      "s2": "Flujos de recordatorios de fechas límite",
+      "s3": "Automatización de onboarding de clientes",
+      "s4": "Facturación recurrente y seguimiento",
+      "cta": "Ve Cómo Funciona para Firmas de CPA →",
+      "slug": "cpas",
+      "hero_headline": "La Recopilación de Documentos No Debería Tomar Semanas",
+      "hero_sub": "Construimos sistemas con IA para firmas de CPA que automatizan solicitudes de documentos, recordatorios de fechas límite y comunicación con clientes — para que tu equipo se enfoque en el trabajo contable.",
+      "pain1_title": "La Temporada de Perseguir Documentos",
+      "pain1_body": "Cada temporada de impuestos, tu personal pasa semanas siguiéndole a clientes que no han enviado sus documentos. Los flujos automáticos de recordatorio envían el mensaje correcto en el momento correcto — y registran quién respondió.",
+      "pain2_title": "Recordatorios de Fechas Límite Manuales",
+      "pain2_body": "Los clientes pierden fechas límite porque nadie los recordó a tiempo. Los flujos automáticos envían recordatorios oportunos por SMS y correo — reduciendo extensiones y radicaciones tardías.",
+      "pain3_title": "Onboarding de Clientes Lento",
+      "pain3_body": "El onboarding de nuevos clientes involucra formularios, solicitudes de documentos, cartas de compromiso y correos de ida y vuelta. Un flujo automatizado recopila todo y lo confirma sin coordinación manual.",
+      "pain4_title": "Brechas en la Comunicación con Clientes",
+      "pain4_body": "Los clientes no saben dónde está su declaración. Llaman o escriben pidiendo actualizaciones, alejando a tu equipo del trabajo real. Las actualizaciones automáticas los mantienen informados sin esfuerzo manual.",
+      "cta_headline": "¿Listo para automatizar tu comunicación con clientes?",
+      "cta_sub": "Comienza con una auditoría gratuita de tu proceso actual."
+    }
+  },
+  "audit": {
+    "eyebrow": "OFERTA GRATUITA",
+    "headline": "Auditoría Gratuita de Captación de Clientes con IA",
+    "subheadline": "Revisamos tu proceso de captación, seguimiento y operaciones — y te damos un diagnóstico claro de dónde estás perdiendo clientes y qué sistemas de IA lo resolverían.",
+    "no_pitch": "Sin ventas. Sin compromiso. Solo un diagnóstico real.",
+    "what_we_check_headline": "Qué Revisamos",
+    "check1_title": "Tu Proceso de Captación",
+    "check1_body": "¿Cómo estás capturando prospectos desde tu página, teléfono y redes sociales? ¿Cuánto tarda alguien en recibir una respuesta? ¿Qué pasa si se comunican fuera de horario?",
+    "check2_title": "Tu Sistema de Seguimiento",
+    "check2_body": "¿Qué pasa después de que alguien te contacta? ¿Hay una secuencia automática, o depende de que alguien del equipo recuerde hacer seguimiento? ¿Cuántos prospectos se enfrían?",
+    "check3_title": "Tu Flujo de Citas y Agenda",
+    "check3_body": "¿Qué tan fácil es agendar una consulta o cita? ¿Cómo se manejan los recordatorios? ¿Cuál es tu tasa de no-shows y alguien la está midiendo?",
+    "check4_title": "Tus Flujos de Operaciones",
+    "check4_body": "¿Dónde está gastando más tiempo manual tu equipo? Recopilación de documentos, entrada de datos, recordatorios, traspasos — identificamos qué se puede automatizar y cuánto tiempo ahorraría.",
+    "check5_title": "Tu Presencia Digital",
+    "check5_body": "¿Tu Google Business Profile está completo y optimizado? ¿Apareces en búsquedas locales para tu área de práctica? ¿Cómo convierte tu página a los visitantes en contactos?",
+    "what_you_get_headline": "Lo Que Recibes",
+    "get1": "Un resumen escrito de lo que encontramos",
+    "get2": "Brechas específicas en tu captación y seguimiento",
+    "get3": "Una lista priorizada de sistemas de IA que cerrarían esas brechas",
+    "get4": "Estimados realistas de tiempo y costo para implementación",
+    "get5": "Sin obligación — tú decides si y cuándo avanzar",
+    "who_its_for_headline": "Para Quién Es Esto",
+    "who_its_for_body": "Esta auditoría está diseñada para consultorios médicos, firmas de abogados y firmas de CPA en Puerto Rico y los Estados Unidos que están dispuestos a crecer su base de clientes y reducir el trabajo operativo manual. Si tu equipo todavía está haciendo llamadas de recordatorio manuales, persiguiendo documentos por correo o perdiendo prospectos que se comunican fuera de horario — esta auditoría te mostrará exactamente qué arreglar.",
+    "cta_headline": "Solicita Tu Auditoría Gratuita",
+    "cta_subheadline": "Disponible en inglés y español. Sin presión de ventas.",
+    "cta_button": "Solicitar Mi Auditoría Gratis",
+    "faq_headline": "Preguntas Frecuentes",
+    "faq1_q": "¿Es realmente gratis?",
+    "faq1_a": "Sí. La auditoría es completamente gratuita sin compromiso. La hacemos en una videollamada de 30 minutos y te enviamos el resumen escrito dentro de 2 días hábiles.",
+    "faq2_q": "¿Cuánto tiempo toma la auditoría?",
+    "faq2_a": "La llamada de descubrimiento es de 30 minutos. Te enviamos el resumen escrito dentro de 2 días hábiles.",
+    "faq3_q": "¿Qué pasa después de la auditoría?",
+    "faq3_a": "Recibes un diagnóstico escrito y una recomendación priorizada. Si quieres avanzar con la implementación, proponemos un proyecto. Si no, te quedas con los hallazgos.",
+    "faq4_q": "¿Necesito saber de tecnología?",
+    "faq4_a": "No. Explicamos todo en lenguaje claro. No necesitas entender la tecnología — solo necesitas conocer tu negocio.",
+    "faq5_q": "¿Trabajan con negocios fuera de Puerto Rico?",
+    "faq5_a": "Sí. Trabajamos con negocios puertorriqueños en Puerto Rico y Orlando, y aceptamos clientes seleccionados en otros mercados de Estados Unidos según el caso."
+  },
   "process": {
-    "eyebrow": "NUESTRO PROCESO",
-    "headline": "Del problema a la solución — cinco pasos claros",
+    "eyebrow": "CÓMO FUNCIONA",
+    "headline": "De la auditoría a la automatización — cinco pasos claros",
     "step1": {
-      "title": "DESCUBRIR",
-      "body": "Aprendemos tu negocio, tus metas y tus limitaciones antes de tocar una sola herramienta."
+      "title": "AUDITAR",
+      "body": "Revisamos tu proceso de captación, sistemas de seguimiento y flujos operativos para encontrar exactamente dónde se pierden los clientes."
     },
     "step2": {
       "title": "DIAGNOSTICAR",
-      "body": "Mapeamos cada cuello de botella, brecha y oportunidad de IA específica para tu operación."
+      "body": "Entregamos un resumen escrito de lo que encontramos — brechas específicas, oportunidades perdidas y una lista priorizada de qué arreglar primero."
     },
     "step3": {
       "title": "CONSTRUIR",
-      "body": "Diseñamos y desarrollamos la solución correcta — nada más, nada menos."
+      "body": "Diseñamos y construimos los sistemas de IA identificados en el diagnóstico — flujos de captación, secuencias de seguimiento, automatización de agenda o flujos operativos."
     },
     "step4": {
-      "title": "IMPLEMENTAR",
-      "body": "Instalamos, integramos y capacitamos a tu equipo para que la adopción realmente suceda."
+      "title": "AUTOMATIZAR",
+      "body": "Integramos los sistemas con tus herramientas existentes, capacitamos a tu equipo y nos aseguramos de que todo funcione sin intervención manual."
     },
     "step5": {
-      "title": "OPTIMIZAR",
-      "body": "Monitoreamos, medimos y mejoramos — porque los buenos sistemas mejoran con el tiempo."
+      "title": "MEJORAR",
+      "body": "Monitoreamos el rendimiento, medimos resultados y hacemos ajustes. Los sistemas que funcionan deben mejorar con el tiempo."
     },
     "full_headline": "Cómo Funciona ThunderHouse",
-    "full_sub": "Un proceso repetible construido para negocios reales — transparente, colaborativo y enfocado en resultados que puedes medir."
+    "full_sub": "Un proceso diagnóstico diseñado para negocios de servicios profesionales — transparente, práctico y enfocado en resultados medibles."
   },
   "whyus": {
-    "eyebrow": "POR QUÉ NOSOTROS",
+    "eyebrow": "POR QUÉ THUNDERHOUSE",
     "headline": "No somos un vendedor de software. Somos tu socio de implementación.",
     "col1": {
-      "title": "Experiencia Local",
-      "body": "Trabajamos específicamente con negocios puertorriqueños en PR y Orlando. Conocemos tu mercado, tu cultura y tus clientes. Hablamos tu idioma — literalmente."
+      "title": "Diagnóstico Primero",
+      "body": "No te vendemos un sistema antes de entender tu problema. Cada proyecto comienza con una auditoría — para que la solución sea específica a lo que realmente necesitas, no a lo que queremos vender."
     },
     "col2": {
-      "title": "Responsabilidad Total",
-      "body": "No entregamos y nos vamos. Construimos, implementamos, capacitamos a tu equipo y nos quedamos. Si algo no funciona, lo arreglamos — porque somos dueños del resultado."
+      "title": "Bilingüe, con Raíces en Puerto Rico",
+      "body": "Servimos a la comunidad empresarial puertorriqueña en Puerto Rico y Orlando. Entendemos el mercado, los clientes y la cultura. Trabajamos en inglés y español."
     },
     "col3": {
-      "title": "Mentalidad IA Primero",
-      "body": "Cada solución empieza con una pregunta: ¿cómo puede la IA mejorar esto? No IA por hacerlo — IA que ahorra tiempo, reduce errores y ayuda a tu equipo a hacer más."
+      "title": "Responsabilidad Total",
+      "body": "Lo construimos, lo implementamos, capacitamos a tu equipo y nos quedamos. Si algo no funciona, lo arreglamos. Somos dueños del resultado — no solo del entregable."
     }
   },
   "proof": {
-    "metric": "100% de las llamadas de recordatorio manuales — eliminadas.",
-    "metric_sub": "Automatizado via SMS, WhatsApp y correo electrónico.",
+    "eyebrow": "RESULTADOS",
+    "metric": "Llamadas de recordatorio manuales eliminadas en cada cliente que hemos automatizado.",
+    "metric_sub": "Reemplazadas con flujos automáticos de SMS, WhatsApp y correo electrónico.",
     "case1": {
-      "badge": "AUTOMATIZACIÓN TOTAL",
-      "industry": "Manufactura de Closets a Gran Escala",
+      "badge": "AUTOMATIZACIÓN DE OPERACIONES",
+      "industry": "Manufactura",
       "headline": "Una operación de fábrica completa — automatizada de principio a fin",
-      "body": "Roomy Organizers necesitaba conectar todo su flujo de trabajo. ThunderHouse construyó un sistema de extremo a extremo que vincula ventas, producción, inventario y entrega — sin hojas de cálculo desconectadas ni traspasos manuales entre equipos."
+      "body": "Roomy Organizers necesitaba conectar todo su flujo de trabajo. Construimos un sistema de extremo a extremo que vincula ventas, producción, inventario y entrega — sin hojas de cálculo desconectadas ni traspasos manuales entre equipos."
     },
     "case2": {
-      "badge": "AUTOMATIZACIÓN DE FLUJO CON IA",
+      "badge": "AUTOMATIZACIÓN DE FLUJO DE TRABAJO",
       "industry": "Contabilidad y Cumplimiento",
       "headline": "Datos del cliente adentro. Radicación al gobierno afuera. Sin pasos manuales.",
-      "body": "Para múltiples firmas de CPA, ThunderHouse construyó un agente de IA donde los clientes someten datos a través de una interfaz guiada. El sistema valida, formatea y publica en portales del gobierno para cumplimiento de auditorías — reduciendo el tiempo de procesamiento y eliminando errores de re-ingreso."
+      "body": "Para firmas de CPA, construimos un flujo con IA donde los clientes someten documentos a través de una interfaz guiada. El sistema valida, formatea y somete a portales del gobierno — eliminando errores de re-ingreso y reduciendo el tiempo de procesamiento."
     },
     "case3": {
       "badge": "AUTOMATIZACIÓN DE COMUNICACIÓN",
       "industry": "Salud · Sin Fines de Lucro · Cuidado de Mascotas",
       "headline": "Tu equipo dejó de hacer llamadas de recordatorio. Los clientes siguen llegando.",
-      "body": "En clínicas médicas, agencias sin fines de lucro y resorts para mascotas, ThunderHouse reemplazó las llamadas manuales con automatización inteligente de SMS y WhatsApp coordinada con correo electrónico. Los recordatorios salen solos. Los equipos gestionan todo desde un panel. Nadie se queda fuera."
-    },
-    "client1": "Roomy Organizers",
-    "client2": "Firmas de CPA",
-    "client3": "Clínicas Médicas",
-    "client4": "Org. Sin Fines de Lucro",
-    "client5": "Pet Resorts"
+      "body": "En clínicas médicas, agencias sin fines de lucro y resorts para mascotas, reemplazamos las llamadas manuales con recordatorios automáticos por SMS y WhatsApp coordinados con correo. Los equipos gestionan todo desde un panel."
+    }
   },
   "cta": {
-    "headline": "¿Listo para dejar de hacerlo a mano?",
-    "button": "Reserva Tu Llamada Gratuita de 30 Min",
-    "note": "Sin ventas. Sin compromiso. Solo una conversación real sobre tu operación — en español o inglés."
+    "headline": "Descubre dónde estás perdiendo clientes.",
+    "subheadline": "La auditoría es gratis. Los hallazgos son tuyos.",
+    "button": "Solicita Tu Auditoría Gratis",
+    "note": "Sin ventas. Sin compromiso. Disponible en inglés y español."
   },
   "contact": {
-    "headline": "Hablemos de Tu Operación",
+    "headline": "Hablemos de Tu Negocio",
     "sub": "Cuéntanos con qué lidias. Te diremos qué es posible.",
     "form": {
       "name": "Nombre Completo",
       "email": "Correo Electrónico",
       "phone": "Número de Teléfono",
-      "company": "Nombre de la Empresa",
-      "message": "¿Cuál es tu mayor reto operativo?",
-      "service": "¿Qué servicio te interesa?",
-      "service_build": "Construir — Sitios Web, Apps y Automatizaciones",
-      "service_analyze": "Analizar — Ciencia de Datos e Inteligencia",
-      "service_transform": "Transformar — Estrategia y Consultoría",
+      "company": "Nombre del Consultorio / Empresa",
+      "message": "¿Cuál es tu mayor reto en este momento?",
+      "service": "¿Qué describe mejor tu situación?",
+      "service_intake": "Captación y Captura de Prospectos",
+      "service_followup": "Seguimiento y Comunicación",
+      "service_operations": "Operaciones y Flujos de Trabajo",
+      "service_audit": "Quiero la auditoría gratis primero",
       "service_unsure": "No estoy seguro todavía",
       "submit": "Enviar Mensaje"
     },
-    "success": "¡Mensaje enviado! Estaremos en contacto dentro de un día hábil.",
+    "success": "Mensaje recibido. Te contactaremos dentro de un día hábil.",
     "error": "Algo salió mal. Por favor intenta de nuevo o escríbenos directamente.",
-    "calendly_headline": "O reserva una llamada directamente"
+    "calendly_headline": "O reserva una llamada de 30 minutos directamente"
   },
   "about": {
-    "headline": "Construimos Sistemas de IA para Negocios Reales",
-    "sub": "ThunderHouse es una agencia de implementación de IA creada específicamente para negocios puertorriqueños en Puerto Rico y Orlando, Florida.",
-    "mission_headline": "Nuestra Misión",
-    "mission_body": "Hacer accesible la implementación de IA de nivel empresarial para pequeñas y medianas empresas — con el conocimiento local, el apoyo bilingüe y la responsabilidad total que marca la diferencia entre tecnología que funciona y tecnología que no se usa.",
+    "headline": "Construimos Sistemas de IA para Negocios de Servicios Profesionales",
+    "sub": "ThunderHouse es una agencia de implementación de IA especializada en ayudar a médicos, abogados y contables a cerrar las brechas que les cuestan clientes.",
+    "mission_headline": "Nuestro Enfoque",
+    "mission_body": "Comenzamos con una auditoría diagnóstica — no con un discurso de ventas. Encontramos dónde estás perdiendo clientes, lo explicamos con claridad y luego construimos los sistemas de IA para arreglarlo. No vendemos tecnología por el bien de la tecnología. Implementamos sistemas que resuelven problemas de negocio específicos y medibles.",
     "market_headline": "Puerto Rico + Orlando",
-    "market_body": "Servimos a la comunidad empresarial puertorriqueña donde quiera que opere — desde San Juan hasta Orlando y en todo el camino. Entendemos el mercado, la cultura y los desafíos únicos de construir un negocio en esta comunidad.",
+    "market_body": "Servimos a la comunidad empresarial puertorriqueña en Puerto Rico y Orlando, Florida. Trabajamos en inglés y español, y entendemos el mercado, la cultura y las dinámicas únicas de construir un negocio de servicios profesionales en esta comunidad.",
     "team_headline": "El Equipo",
     "team_placeholder": "[TODO: Reemplazar con fotos reales + biografías]"
   },
   "chat": {
-    "greeting": "¡Hola! Soy el asistente de IA de ThunderHouse. ¿Cuál es tu mayor reto operativo en este momento?",
+    "greeting": "¡Hola! Soy el asistente de IA de ThunderHouse. ¿Eres médico, abogado o CPA y buscas automatizar tu captación u operaciones?",
     "placeholder": "Escribe tu mensaje...",
-    "cta": "¿Quieres hablar con alguien del equipo? Reserva tu llamada →",
+    "cta": "¿Quieres un diagnóstico real? Solicita tu auditoría gratis →",
     "title": "ThunderHouse IA"
   },
   "footer": {
-    "tagline": "Tu Negocio. Potenciado por IA.",
+    "tagline": "Implementación de IA para Negocios de Servicios Profesionales.",
     "services": "Servicios",
+    "industries": "Industrias",
     "company": "Empresa",
     "copyright": "© 2025 ThunderHouse. Todos los derechos reservados.",
     "linkedin": "LinkedIn",
-    "instagram": "Instagram"
+    "instagram": "Instagram",
+    "nav_intake": "Automatización de Captación",
+    "nav_followup": "Sistemas de Seguimiento con IA",
+    "nav_operations": "Automatización de Operaciones",
+    "nav_doctors": "Consultorios Médicos",
+    "nav_attorneys": "Firmas de Abogados",
+    "nav_cpas": "Firmas de CPA",
+    "nav_audit": "Auditoría Gratis",
+    "nav_about": "Nosotros",
+    "nav_process": "Cómo Funciona",
+    "nav_contact": "Contacto"
   },
   "meta": {
-    "home_title": "ThunderHouse — Agencia de Implementación de IA",
-    "home_desc": "ThunderHouse ayuda a negocios puertorriqueños en PR y Orlando a implementar soluciones de IA que eliminan el trabajo manual, conectan sistemas e impulsan el crecimiento.",
-    "services_title": "Servicios — ThunderHouse",
-    "services_desc": "Construir, Analizar y Transformar — tres pilares de servicio para negocios impulsados por IA.",
-    "about_title": "Nosotros — ThunderHouse",
-    "about_desc": "Conoce a ThunderHouse, la agencia de implementación de IA que sirve a Puerto Rico y Orlando.",
-    "process_title": "Nuestro Proceso — ThunderHouse",
-    "process_desc": "Cómo ThunderHouse construye soluciones de IA: Descubrir, Diagnosticar, Construir, Implementar, Optimizar.",
-    "contact_title": "Contacto — ThunderHouse",
-    "contact_desc": "Ponte en contacto con ThunderHouse. Reserva una llamada de descubrimiento gratuita de 30 minutos."
+    "home_title": "ThunderHouse — IA para Médicos, Abogados y Contables",
+    "home_desc": "ThunderHouse encuentra dónde estás perdiendo clientes y construye sistemas de IA para arreglarlo. Servimos negocios de servicios profesionales en Puerto Rico y Orlando.",
+    "services_title": "Servicios de Implementación de IA — ThunderHouse",
+    "services_desc": "Automatización de captación, sistemas de seguimiento con IA y automatización de operaciones para consultorios médicos, firmas de abogados y CPAs en Puerto Rico y Orlando.",
+    "audit_title": "Auditoría Gratuita de Captación con IA — ThunderHouse",
+    "audit_desc": "Obtén una revisión diagnóstica gratuita de tu captación, seguimiento y operaciones. Identificamos dónde estás perdiendo clientes y qué sistemas de IA lo resolverían.",
+    "industries_title": "Industrias a las que Servimos — ThunderHouse",
+    "industries_desc": "Implementación de IA para consultorios médicos, firmas de abogados y firmas de CPA en Puerto Rico y Orlando. Atención bilingüe en inglés y español.",
+    "doctors_title": "Automatización con IA para Consultorios Médicos — ThunderHouse",
+    "doctors_desc": "Automatización de intake de pacientes, recordatorios de citas y sistemas de seguimiento para consultorios médicos en Puerto Rico y Orlando.",
+    "attorneys_title": "Automatización con IA para Firmas de Abogados — ThunderHouse",
+    "attorneys_desc": "Automatización de captación de casos, agenda de consultas y sistemas de recopilación de documentos para abogados en Puerto Rico y Orlando.",
+    "cpas_title": "Automatización con IA para Firmas de CPA — ThunderHouse",
+    "cpas_desc": "Automatización de recopilación de documentos, recordatorios de fechas límite y sistemas de comunicación para firmas de CPA en Puerto Rico y Orlando.",
+    "intake_title": "Automatización de Captación de Clientes — ThunderHouse",
+    "intake_desc": "Formularios de captación con IA, enrutamiento de prospectos y automatización de agenda. Deja de perder prospectos por un proceso de captación deficiente.",
+    "followup_title": "Sistemas de Seguimiento con IA — ThunderHouse",
+    "followup_desc": "Seguimiento automático por SMS, correo y WhatsApp que mantiene los prospectos activos y los clientes informados — sin esfuerzo manual.",
+    "operations_title": "Automatización de Operaciones — ThunderHouse",
+    "operations_desc": "Automatización de flujos de trabajo, integraciones de CRM y automatización de tareas. Reduce el trabajo manual y aumenta la capacidad de tu equipo.",
+    "about_title": "Nosotros — ThunderHouse, Agencia de Implementación de IA",
+    "about_desc": "ThunderHouse es una agencia de implementación de IA para médicos, abogados y CPAs en Puerto Rico y Orlando. Diagnóstico primero. Bilingüe. Responsabilidad total.",
+    "process_title": "Cómo Funciona — ThunderHouse",
+    "process_desc": "Auditar, Diagnosticar, Construir, Automatizar, Mejorar. Descubre cómo ThunderHouse implementa sistemas de IA para negocios de servicios profesionales.",
+    "contact_title": "Contacto — Solicita Tu Auditoría Gratuita",
+    "contact_desc": "Contacta a ThunderHouse para solicitar tu auditoría gratuita de captación de clientes. Disponible en inglés y español para negocios en Puerto Rico y Orlando."
   }
 }

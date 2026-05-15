@@ -9,10 +9,6 @@ import { fadeUp, staggerContainer, staggerItem } from "@/lib/animations";
 export function SocialProof() {
   const t = useTranslations("proof");
 
-  const clients = [
-    t("client1"), t("client2"), t("client3"), t("client4"), t("client5"),
-  ];
-
   const cases = [
     {
       badge: t("case1.badge"),
@@ -37,24 +33,15 @@ export function SocialProof() {
   return (
     <section className="py-24 md:py-32 bg-[--color-surface]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Client logo row */}
-        <motion.div
+        {/* Eyebrow */}
+        <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="flex flex-wrap justify-center gap-6 mb-20"
+          className="text-xs font-semibold tracking-widest uppercase text-[--color-steel] text-center mb-12"
         >
-          {clients.map((client) => (
-            <div
-              key={client}
-              className="px-6 py-3 rounded-xl border border-[--color-border] text-sm text-[--color-muted] font-medium"
-            >
-              {/* TODO: Replace with actual client logos */}
-              {client}
-            </div>
-          ))}
-        </motion.div>
+          {t("eyebrow")}
+        </motion.p>
 
         {/* Big metric */}
         <div className="text-center mb-20">
@@ -94,8 +81,10 @@ export function SocialProof() {
                 <p className="text-xs text-[--color-steel] font-semibold tracking-wide mb-3">
                   {c.industry}
                 </p>
-                <h3 className="font-bold text-[--color-text] mb-3 leading-snug"
-                  style={{ fontFamily: "Syne, sans-serif" }}>
+                <h3
+                  className="font-bold text-[--color-text] mb-3 leading-snug"
+                  style={{ fontFamily: "Syne, sans-serif" }}
+                >
                   {c.headline}
                 </h3>
                 <p className="text-sm text-[--color-muted] leading-relaxed flex-1">{c.body}</p>

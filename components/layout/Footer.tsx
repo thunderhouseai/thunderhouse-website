@@ -26,33 +26,62 @@ export function Footer() {
   const locale = useLocale();
 
   const serviceLinks = [
-    { href: `/${locale}/services/build`, label: t("services.build.name") },
-    { href: `/${locale}/services/analyze`, label: t("services.analyze.name") },
-    { href: `/${locale}/services/transform`, label: t("services.transform.name") },
+    { href: `/${locale}/services/client-intake-automation`, label: t("footer.nav_intake") },
+    { href: `/${locale}/services/ai-follow-up-systems`, label: t("footer.nav_followup") },
+    { href: `/${locale}/services/operations-automation`, label: t("footer.nav_operations") },
+  ];
+
+  const industryLinks = [
+    { href: `/${locale}/industries/doctors`, label: t("footer.nav_doctors") },
+    { href: `/${locale}/industries/attorneys`, label: t("footer.nav_attorneys") },
+    { href: `/${locale}/industries/cpas`, label: t("footer.nav_cpas") },
   ];
 
   const companyLinks = [
-    { href: `/${locale}/about`, label: t("nav.about") },
-    { href: `/${locale}/process`, label: t("nav.process") },
-    { href: `/${locale}/contact`, label: t("nav.contact") },
+    { href: `/${locale}/ai-intake-audit`, label: t("footer.nav_audit") },
+    { href: `/${locale}/about`, label: t("footer.nav_about") },
+    { href: `/${locale}/process`, label: t("footer.nav_process") },
+    { href: `/${locale}/contact`, label: t("footer.nav_contact") },
   ];
 
   return (
-    <footer className="bg-[--color-surface] border-t border-[--color-border]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-          {/* Brand */}
-          <div className="md:col-span-1">
-            <Image
-              src="/images/logo.svg"
-              alt="ThunderHouse"
-              width={160}
-              height={42}
-              className="h-10 w-auto mb-4"
-            />
-            <p className="text-sm text-[--color-muted] leading-relaxed">
+    <footer className="bg-[--color-navy] border-t border-[--color-border] pt-16 pb-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+          {/* Brand column */}
+          <div className="col-span-2 md:col-span-2">
+            <Link href={`/${locale}`} className="inline-block mb-4">
+              <Image
+                src="/images/logo.svg"
+                alt="ThunderHouse"
+                width={160}
+                height={42}
+                className="h-9 w-auto"
+              />
+            </Link>
+            <p className="text-sm text-[--color-muted] leading-relaxed max-w-xs">
               {t("footer.tagline")}
             </p>
+            <div className="flex gap-3 mt-6">
+              <a
+                href="https://www.linkedin.com/company/thunderhouseai"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={t("footer.linkedin")}
+                className="text-[--color-muted] hover:text-[--color-steel] transition-colors"
+              >
+                <LinkedInIcon size={18} />
+              </a>
+              <a
+                href="https://www.instagram.com/thunderhouseai"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={t("footer.instagram")}
+                className="text-[--color-muted] hover:text-[--color-steel] transition-colors"
+              >
+                <InstagramIcon size={18} />
+              </a>
+            </div>
           </div>
 
           {/* Services */}
@@ -60,8 +89,27 @@ export function Footer() {
             <p className="text-xs font-semibold tracking-widest uppercase text-[--color-muted] mb-4">
               {t("footer.services")}
             </p>
-            <ul className="flex flex-col gap-2">
+            <ul className="flex flex-col gap-2.5">
               {serviceLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-[--color-muted] hover:text-[--color-text] transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Industries */}
+          <div>
+            <p className="text-xs font-semibold tracking-widest uppercase text-[--color-muted] mb-4">
+              {t("footer.industries")}
+            </p>
+            <ul className="flex flex-col gap-2.5">
+              {industryLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -79,7 +127,7 @@ export function Footer() {
             <p className="text-xs font-semibold tracking-widest uppercase text-[--color-muted] mb-4">
               {t("footer.company")}
             </p>
-            <ul className="flex flex-col gap-2">
+            <ul className="flex flex-col gap-2.5">
               {companyLinks.map((link) => (
                 <li key={link.href}>
                   <Link
@@ -92,38 +140,12 @@ export function Footer() {
               ))}
             </ul>
           </div>
-
-          {/* Social + Language */}
-          <div>
-            <p className="text-xs font-semibold tracking-widest uppercase text-[--color-muted] mb-4">
-              {t("nav.contact")}
-            </p>
-            <div className="flex gap-4 mb-6">
-              <a
-                href="https://linkedin.com/company/thunderhouseai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[--color-muted] hover:text-[--color-steel] transition-colors"
-                aria-label={t("footer.linkedin")}
-              >
-                <LinkedInIcon size={20} />
-              </a>
-              <a
-                href="https://instagram.com/thunderhouseai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[--color-muted] hover:text-[--color-steel] transition-colors"
-                aria-label={t("footer.instagram")}
-              >
-                <InstagramIcon size={20} />
-              </a>
-            </div>
-            <LanguageSwitcher />
-          </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-[--color-border-subtle]">
+        {/* Bottom bar */}
+        <div className="pt-8 border-t border-[--color-border] flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[--color-muted]">{t("footer.copyright")}</p>
+          <LanguageSwitcher />
         </div>
       </div>
     </footer>
